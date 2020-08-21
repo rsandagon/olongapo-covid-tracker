@@ -1,0 +1,117 @@
+﻿Patient,Age,Gender,Location,Condition,Status,Date
+PHOC-1,75,M,,Stable condition,Recovered,28/03/2020
+PHOC-2,45,M,,Stable condition,Recovered,04/04/2020
+PHOC-3,2,M,,Stable condition,Recovered,05/04/2020
+PHOC-4,23,F,,Chills,Recovered,06/04/2020
+PHOC-5,35,F,,Stable condition,Recovered,10/04/2020
+PHOC-7,36,F,,Stable condition,Recovered,14/04/2020
+PHOC-6,55,F,,Stable condition,Recovered,14/04/2020
+PHOC-9,61,F,,Stable condition,Recovered,17/04/2020
+PHOC-8,48,F,,Stable condition,Recovered,17/04/2020
+PHOC-11,29,F,,Stable condition,Recovered,05/05/2020
+PHOC-10,0.6,F,,Stable condition,Recovered,05/05/2020
+PHOC-12,18,F,,Stable condition,Recovered,15/05/2020
+PHOC-14,47,M,,Difficulty breathing,Active,26/05/2020
+PHOC-13,58,F,,Breast cancer,Deceased,26/05/2020
+PHOC-15,23,F,,Asymptomatic,Active,02/07/2020
+PHOC-44,32,F,,Asymptomatic,Recovered,07/07/2020
+PHOC-43,58,M,,Asymptomatic,Active,07/07/2020
+PHOC-42,30,M,,Asymptomatic,Recovered,07/07/2020
+PHOC-41,54,M,,Asymptomatic,Recovered,07/07/2020
+PHOC-40,45,F,,Asymptomatic,Recovered,07/07/2020
+PHOC-39,53,F,,Asymptomatic,Active,07/07/2020
+PHOC-16,76,M,,Asymptomatic,Recovered,19/07/2020
+PHOC-18,27,M,,Asymptomatic,Active,20/07/2020
+PHOC-17,37,M,,Asymptomatic,Active,20/07/2020
+PHOC-20,72,F,,Difficulty breathing,Deceased,21/07/2020
+PHOC-19,55,M,,Asymptomatic,Recovered,21/07/2020
+PHOC-23,18,M,,Asymptomatic,Recovered,22/07/2020
+PHOC-22,19,F,,Asymptomatic,Recovered,22/07/2020
+PHOC-21,45,F,,Asymptomatic,Recovered,22/07/2020
+PHOC-25,27,F,,Asymptomatic,Recovered,24/07/2020
+PHOC-24,30,M,,Asymptomatic,Recovered,24/07/2020
+PHOC-27,,,,,Recovered,25/07/2020
+PHOC-26,,,,,Recovered,25/07/2020
+PHOC-31,53,M,,Fever,Active,30/07/2020
+PHOC-30,51,M,,Asymptomatic,Active,30/07/2020
+PHOC-29,65,M,,with symptoms,Active,30/07/2020
+PHOC-28,57,F,,Asymptomatic,Recovered,30/07/2020
+PHOC-34,16,M,,Asymptomatic,Active,01/08/2020
+PHOC-33,18,F,,Anosmia,Active,01/08/2020
+PHOC-32,52,F,,Anosmia,Active,01/08/2020
+PHOC-35,28,M,,"coughs, cold and fever",Recovered,04/08/2020
+PHOC-36,21,F,,Fever,Recovered,05/08/2020
+PHOC-37,47,F,,Asymptomatic,Active,06/08/2020
+PHOC-38,26,F,,Fever,Recovered,07/08/2020
+PHOC-60,38,F,,Asymptomatic,Recovered,09/08/2020
+PHOC-59,23,M,,Asymptomatic,Recovered,09/08/2020
+PHOC-58,19,M,,Headache,Active,09/08/2020
+PHOC-57,21,F,,Fever and Sore Throat,Recovered,09/08/2020
+PHOC-56,20,M,,Cold,Recovered,09/08/2020
+PHOC-55,54,F,,Asymptomatic,Recovered,09/08/2020
+PHOC-54,24,M,,Stable condition,Recovered,09/08/2020
+PHOC-53,26,F,,"Fever, coughs and cold",Recovered,09/08/2020
+PHOC-52,0.01,F,,Asymptomatic,Recovered,09/08/2020
+PHOC-51,0.1,F,,Stable condition,Recovered,09/08/2020
+PHOC-50,51,F,,Asymptomatic,Recovered,09/08/2020
+PHOC-49,27,M,Bataan,Asymptomatic,Recovered,09/08/2020
+PHOC-48,33,M,,Asymptomatic,Active,09/08/2020
+PHOC-47,30,M,,Asymptomatic,Active,09/08/2020
+PHOC-46,56,M,,Asymptomatic,Recovered,09/08/2020
+PHOC-45,29,M,,Asymptomatic,Recovered,09/08/2020
+PHOC-61,65,M,,Sore throat and loss os sense of taste,Recovered,10/08/2020
+PHOC-62,61,F,West Bajac Bajac,"Fever, cough, shortness of breath",Active,11/08/2020
+PHOC-64,12,F,,Asymptomatic,Active,13/08/2020
+PHOC-63,35,M,,Asymptomatic,Active,13/08/2020
+PHOC-79,31,F,Mabayuan,Deceased,Deceased,14/08/2020
+PHOC-78,52,M,West Tapinac,Stable condition,Active,14/08/2020
+PHOC-77,51,M,West Tapinac,Fever with pneumonia,Active,14/08/2020
+PHOC-76,73,F,Gordon Heights,Fever,Active,14/08/2020
+PHOC-75,35,M,Gordon Heights,Asymptomatic,Active,14/08/2020
+PHOC-74,30,M,West Tapinac,Asymptomatic,Active,14/08/2020
+PHOC-73,25,F,East Tapinac,Asymptomatic,Active,14/08/2020
+PHOC-72,23,F,East Bajac-Bajac,Asymptomatic,Active,14/08/2020
+PHOC-71,45,M,Mabayuan,Cough and fever,Active,14/08/2020
+PHOC-70,28,M,Banicain,Stable condition,Active,14/08/2020
+PHOC-69,32,M,Mabayuan,Fever and cough,Active,14/08/2020
+PHOC-68,38,M,Sta. Rita,Asymptomatic,Active,14/08/2020
+PHOC-67,35,M,Sta. Rita,Mild sore throat,Active,14/08/2020
+PHOC-66,39,M,New Kalalake,Stable condition,Active,14/08/2020
+PHOC-65,60,M,Sta. Rita,Cough and colds,Active,14/08/2020
+PHOC-80,32,M,West Bajac Bajac,Asymptomatic,Active,15/08/2020
+PHOC-82,41,M,New Ilalim,Asymptomatic,Active,16/08/2020
+PHOC-81,37,M,Sta. Rita,Asymptomatic,Active,16/08/2020
+PHOC-86,60,M,Sta. Rita,Asymptomatic,Active,17/08/2020
+PHOC-85,75,F,Barretto,Asymptomatic,Active,17/08/2020
+PHOC-84,68,F,Barretto,Asymptomatic,Active,17/08/2020
+PHOC-83,69,M,West Bajac Bajac,Fever and cough,Active,17/08/2020
+PHOC-88,70,F,Kalaklan,"Fever, cough and difficulty breathing",Active,18/08/2020
+PHOC-87,55,M,Sta. Rita,Fever and itchy throat,Active,18/08/2020
+PHOC-100,6,F,West Tapinac,Asymptomatic,Active,19/08/2020
+PHOC-99,31,F,West Tapinac,Anosmia,Active,19/08/2020
+PHOC-98,33,F,Asinan,Stable condition,Active,19/08/2020
+PHOC-97,56,F,Gordon Heights,Fever and cough,Active,19/08/2020
+PHOC-96,21,M,Banicain,Asymptomatic,Active,19/08/2020
+PHOC-95,31,M,Gordon Heights,Asymptomatic,Active,19/08/2020
+PHOC-94,39,M,Banicain,Asymptomatic,Active,19/08/2020
+PHOC-93,43,M,West Tapinac,Asymptomatic,Active,19/08/2020
+PHOC-92,34,M,Banicain,Asymptomatic,Active,19/08/2020
+PHOC-91,32,M,Barretto,Asymptomatic,Active,19/08/2020
+PHOC-90,43,M,Gordon Heights,Asymptomatic,Active,19/08/2020
+PHOC-89,41,M,Mabayuan,Asymptomatic,Active,19/08/2020
+PHOC-105,47,M,Kalaklan,Asymptomatic,Active,20/08/2020
+PHOC-104,66,F,West Bajac Bajac,Fever with headache,Active,20/08/2020
+PHOC-103,27,M,Kalaklan,Fever,Active,20/08/2020
+PHOC-102,69,M,East Tapinac,Loss of apetite and body weakness,Active,20/08/2020
+PHOC-101,79,F,Gordon Heights,"Fever, chills and aphasia",Active,20/08/2020
+PHOC-116,69,M,Barretto,Asymptomatic,Active,21/08/2020
+PHOC-115,34,F,New Kalalake,Asymptomatic,Active,21/08/2020
+PHOC-114,23,M,Old Cabalan,"Fever, cough and colds",Active,21/08/2020
+PHOC-113,68,F,East Bajac-Bajac,Chills and joint pains,Active,21/08/2020
+PHOC-112,23,M,New Cabalan,"Cold, anosmia and loss of apetite",Active,21/08/2020
+PHOC-111,38,M,Old Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-110,0.8,M,Mabayuan,Asymptomatic,Active,21/08/2020
+PHOC-109,5,M,New Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-108,22,F,New Cabalan,"Cough, Cold, Diarrhea and anosmia",Active,21/08/2020
+PHOC-107,81,F,New Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
