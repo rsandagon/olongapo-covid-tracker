@@ -1,5 +1,5 @@
 // Parse local CSV file
-Papa.parse("../data/data1.csv", {
+Papa.parse("/data/data1.csv", {
     download: true,
 	complete: function(results) {
         let currentValues = results.data[results.data.length-1]
@@ -73,7 +73,7 @@ Papa.parse("../data/data1.csv", {
 	}
 });
 
-Papa.parse("../data/data2.csv", {
+Papa.parse("/data/data2.csv", {
     download: true,
 	complete: function(results) {
         let dataSet = [...results.data];
@@ -101,7 +101,7 @@ let markers = []
 let legend = []
 
 function loadLegend() {
-    fetch("data/data.json")
+    fetch("/data/data.json")
         .then(res => res.json())
         .then(data => { 
             legend = data; 
@@ -121,8 +121,7 @@ function initMap() {
     // Add traffic layer
     var trafficLayer = new google.maps.TrafficLayer();
     trafficLayer.setMap(map);
-
-    
+   
     let infomarkers = []
 
     // Loop through markers
