@@ -34,7 +34,7 @@ PHOC-27,,,,,Recovered,25/07/2020
 PHOC-26,,,,,Recovered,25/07/2020
 PHOC-31,53,M,,Fever,Active,30/07/2020
 PHOC-30,51,M,,Asymptomatic,Active,30/07/2020
-PHOC-29,65,M,,with symptoms,Active,30/07/2020
+PHOC-29,65,M,,with symptoms,Recovered,30/07/2020
 PHOC-28,57,F,,Asymptomatic,Recovered,30/07/2020
 PHOC-34,16,M,,Asymptomatic,Active,01/08/2020
 PHOC-33,18,F,,Anosmia,Active,01/08/2020
@@ -82,7 +82,7 @@ PHOC-80,32,M,West Bajac Bajac,Asymptomatic,Active,15/08/2020
 PHOC-82,41,M,New Ilalim,Asymptomatic,Active,16/08/2020
 PHOC-81,37,M,Sta. Rita,Asymptomatic,Active,16/08/2020
 PHOC-86,60,M,Sta. Rita,Asymptomatic,Active,17/08/2020
-PHOC-85,75,F,Barretto,Asymptomatic,Active,17/08/2020
+PHOC-85,75,F,Barretto,Asymptomatic,Died,17/08/2020
 PHOC-84,68,F,Barretto,Asymptomatic,Active,17/08/2020
 PHOC-83,69,M,West Bajac Bajac,Fever and cough,Active,17/08/2020
 PHOC-88,70,F,Kalaklan,"Fever, cough and difficulty breathing",Active,18/08/2020
