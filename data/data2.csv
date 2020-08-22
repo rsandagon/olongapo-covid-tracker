@@ -12,7 +12,7 @@ PHOC-11,29,F,,Stable condition,Recovered,05/05/2020
 PHOC-10,0.6,F,,Stable condition,Recovered,05/05/2020
 PHOC-12,18,F,,Stable condition,Recovered,15/05/2020
 PHOC-14,47,M,,Difficulty breathing,Active,26/05/2020
-PHOC-13,58,F,,Breast cancer,Deceased,26/05/2020
+PHOC-13,58,F,,Breast cancer,Died,26/05/2020
 PHOC-15,23,F,,Asymptomatic,Active,02/07/2020
 PHOC-44,32,F,,Asymptomatic,Recovered,07/07/2020
 PHOC-43,58,M,,Asymptomatic,Active,07/07/2020
@@ -23,7 +23,7 @@ PHOC-39,53,F,,Asymptomatic,Active,07/07/2020
 PHOC-16,76,M,,Asymptomatic,Recovered,19/07/2020
 PHOC-18,27,M,,Asymptomatic,Active,20/07/2020
 PHOC-17,37,M,,Asymptomatic,Active,20/07/2020
-PHOC-20,72,F,,Difficulty breathing,Deceased,21/07/2020
+PHOC-20,72,F,,Difficulty breathing,Died,21/07/2020
 PHOC-19,55,M,,Asymptomatic,Recovered,21/07/2020
 PHOC-23,18,M,,Asymptomatic,Recovered,22/07/2020
 PHOC-22,19,F,,Asymptomatic,Recovered,22/07/2020
@@ -54,7 +54,7 @@ PHOC-53,26,F,,"Fever, coughs and cold",Recovered,09/08/2020
 PHOC-52,0.01,F,,Asymptomatic,Recovered,09/08/2020
 PHOC-51,0.1,F,,Stable condition,Recovered,09/08/2020
 PHOC-50,51,F,,Asymptomatic,Recovered,09/08/2020
-PHOC-49,27,M,Bataan,Asymptomatic,Recovered,09/08/2020
+PHOC-49,27,M,,Asymptomatic,Recovered,09/08/2020
 PHOC-48,33,M,,Asymptomatic,Active,09/08/2020
 PHOC-47,30,M,,Asymptomatic,Active,09/08/2020
 PHOC-46,56,M,,Asymptomatic,Recovered,09/08/2020
@@ -63,7 +63,7 @@ PHOC-61,65,M,,Sore throat and loss os sense of taste,Recovered,10/08/2020
 PHOC-62,61,F,West Bajac Bajac,"Fever, cough, shortness of breath",Active,11/08/2020
 PHOC-64,12,F,,Asymptomatic,Active,13/08/2020
 PHOC-63,35,M,,Asymptomatic,Active,13/08/2020
-PHOC-79,31,F,Mabayuan,Deceased,Deceased,14/08/2020
+PHOC-79,31,F,Mabayuan,Died,Died,14/08/2020
 PHOC-78,52,M,West Tapinac,Stable condition,Active,14/08/2020
 PHOC-77,51,M,West Tapinac,Fever with pneumonia,Active,14/08/2020
 PHOC-76,73,F,Gordon Heights,Fever,Active,14/08/2020

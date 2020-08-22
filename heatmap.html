@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Philippine COVID19 Tool</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Font Awesome if you need it
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	-->
+
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="js/papaparse.min.js"></script>
+  <style>
+    .autocomplete-items {
+      position: absolute;
+      border: 1px solid #d4d4d4;
+      border-bottom: none;
+      border-top: none;
+      z-index: 99;
+      /*position the autocomplete items to be the same width as the container:*/
+      top: 100%;
+      left: 0;
+      right: 0;
+    }
+
+    .autocomplete-items div {
+      padding: 10px;
+      cursor: pointer;
+      background-color: #fff;
+      border-bottom: 1px solid #d4d4d4;
+    }
+
+    .autocomplete-items div:hover {
+      /*when hovering an item:*/
+      background-color: #e9e9e9;
+    }
+
+    .autocomplete-active {
+      /*when navigating through the items using the arrow keys:*/
+      background-color: DodgerBlue !important;
+      color: #ffffff;
+    }
+  </style>
+
+</head>
+
+
+<body class=" font-sans leading-normal tracking-normal ">
+  <div class="h-screen pb-14 bg-right bg-cover flex flex-col">
+    <!--Nav-->
+<!--Nav-->
+<div class="w-full bg-blue-100 p-5">
+  <div class="w-full flex items-center justify-between">
+      <div class="autocomplete p-2 relative text-gray-600">
+          <ul class="flex">
+              <li class="mr-6">
+                  <a class="text-blue-500 hover:text-blue-800 text-l md:text-xl"
+                      href="index.html">Dashboard</a>
+              </li>
+              <li class="mr-6">
+                  <a class="text-blue-500 hover:text-blue-800 text-l md:text-xl"
+                      href="heatmap.html">Heatmap</a>
+              </li>
+              <li class="mr-6">
+                  <a class="modal-open text-blue-500 hover:text-blue-800 text-l md:text-xl"
+                      href="search.html">About</a>
+              </li>
+          </ul>
+      </div>
+      <div class="p-2 relative"></div>
+      <div class="flex w-1/2 justify-end content-center h-full">
+          <a class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
+              data-tippy-content="@twitter_handle" href="https://twitter.com/intent/tweet?url=#">
+              <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <path
+                      d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z">
+                  </path>
+              </svg>
+          </a>
+          <a class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 "
+              data-tippy-content="#facebook_id" href="https://www.facebook.com/sharer/sharer.php?u=#">
+              <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z">
+                  </path>
+              </svg>
+          </a>
+      </div>
+  </div>
+</div>
+
+    <!--Main-->
+    <div class="m-2 mb-10 text-xl text-blue-800 text-center">
+      <h1 class="font-bold pt-2 text-xl md:text-3xl xl:text-5xl">Olongapo Covid-19 Heatmap</h1>
+      <span class="text-sm"><a class="modal-open text-blue-500 hover:text-blue-800" href="search.html">by:
+          Ryan Sandagon</a></span>
+      <div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 text-center w-full -5" role="alert">
+        <p class="font-bold">Disclaimer!</p>
+        <p class="text-sm"> ** Marker locations are per barangay as provided in the official FB page of <a href="https://www.facebook.com/attyrolenpaulinojr">Mayor Rolen Paulino Jr.</a></br>
+          ** Active cases without locations are consolidated in the "No Location" marker.
+        </p>
+      </div>
+    </div>
+    <div class=" relative mx-auto text-gray-600 p-2 w-full md:w-1/2">
+      <form id="search-form">
+        <input autocomplete="off"
+          class="w-full xl:text-xl border-2 border-gray-300 bg-white h-10 px-5 pr-8 rounded-lg text-md focus:outline-none"
+          type="search" name="search" placeholder="Search position" id="locationInput">
+        <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+          <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+            width="512px" height="512px">
+            <path
+              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="flex-grow w-screen mt-2" id="map"></div>
+
+
+  </div>
+  <script src="js/heatmap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnVhbl1bPiwiJaIc6hoxWf3MZecJijJEU&callback=loadLegend"
+    async defer></script>
+
+
+  <!--Modal-->
+  <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
+    <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
+
+    <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
+
+        <div
+            class="modal-close absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
+            <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                viewBox="0 0 18 18">
+                <path
+                    d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+                </path>
+            </svg>
+            <span class="text-sm">(Esc)</span>
+        </div>
+
+        <!-- Add margin if you want to see some of the overlay behind the modal-->
+        <div class="modal-content py-4 text-left px-6">
+            <!--Title-->
+            <div class="flex justify-between items-center pb-3">
+                <p class="text-2xl font-bold"></p>
+                <div class="modal-close cursor-pointer z-50">
+                    <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 18 18">
+                        <path
+                            d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Body-->
+            <div class="rounded justify-center rounded-t-lg overflow-hidden shadow w-full my-3">
+                <!-- <img src="https://i.imgur.com/dYcYQ7E.png" class="w-full" /> -->
+                <div class="flex justify-center mt-8">
+                    <img src="https://avatars2.githubusercontent.com/u/2034663?s=460&u=c290406fd1d61c9e098ede0d70f4d1feda2f11f0&v=4"
+                        class="rounded-full border-solid border-white border-2 -mt-3 w-20 h-20">
+                </div>
+                <div class="text-center px-3 pb-6 pt-2">
+                    <h3 class="text-black text-sm bold font-sans">Ryan Sandagon - Solution Architect / Artist</h3>
+                    <p class="mt-2 font-sans font-light text-grey-dark">Hello. I hope this simple tool can help
+                        fellow Olongapeños in time of Covid-19.</p>
+                        <img src=https://media.giphy.com/media/YPbrUhP9Ryhgi2psz3/giphy.gif alt="gabby!"/>
+                        <span class="mt-2 text-sm text-blue-300">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></span>
+                    </br><span class="mt-2 text-sm text-blue-300">Gif made by <a href="https://giphy.com/adambanaszek" title="Freepik">adambanaszek</a></span>
+
+
+                </div>
+                <div class="flex justify-center pb-3 text-grey-dark">
+                    <div class="text-center mr-3 border-r pr-3">
+                        <a class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
+                            data-tippy-content="@twitter_handle" href="https://twitter.com/rsandagon">
+                            <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path
+                                    d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 "
+                            data-tippy-content="#facebook_id" href="http://github.com/rsandagon/">
+                            <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var openmodal = document.querySelectorAll('.modal-open')
+    for (var i = 0; i < openmodal.length; i++) {
+        openmodal[i].addEventListener('click', function (event) {
+            event.preventDefault()
+            toggleModal()
+        })
+    }
+
+    const overlay = document.querySelector('.modal-overlay')
+    overlay.addEventListener('click', toggleModal)
+
+    var closemodal = document.querySelectorAll('.modal-close')
+    for (var i = 0; i < closemodal.length; i++) {
+        closemodal[i].addEventListener('click', toggleModal)
+    }
+
+    document.onkeydown = function (evt) {
+        evt = evt || window.event
+        var isEscape = false
+        if ("key" in evt) {
+            isEscape = (evt.key === "Escape" || evt.key === "Esc")
+        } else {
+            isEscape = (evt.keyCode === 27)
+        }
+        if (isEscape && document.body.classList.contains('modal-active')) {
+            toggleModal()
+        }
+    };
+
+
+    function toggleModal() {
+        const body = document.querySelector('body')
+        const modal = document.querySelector('.modal')
+        modal.classList.toggle('opacity-0')
+        modal.classList.toggle('pointer-events-none')
+        body.classList.toggle('modal-active')
+    }
+
+
+</script>
+
+</body>
+
+</html>
