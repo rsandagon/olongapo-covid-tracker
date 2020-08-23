@@ -99,19 +99,27 @@ PHOC-92,34,M,Banicain,Asymptomatic,Active,19/08/2020
 PHOC-91,32,M,Barretto,Asymptomatic,Active,19/08/2020
 PHOC-90,43,M,Gordon Heights,Asymptomatic,Active,19/08/2020
 PHOC-89,41,M,Mabayuan,Asymptomatic,Active,19/08/2020
-PHOC-105,47,M,Kalaklan,Asymptomatic,Active,20/08/2020
-PHOC-104,66,F,West Bajac Bajac,Fever with headache,Active,20/08/2020
-PHOC-103,27,M,Kalaklan,Fever,Active,20/08/2020
-PHOC-102,69,M,East Tapinac,Loss of apetite and body weakness,Active,20/08/2020
 PHOC-101,79,F,Gordon Heights,"Fever, chills and aphasia",Active,20/08/2020
-PHOC-116,69,M,Barretto,Asymptomatic,Active,21/08/2020
-PHOC-115,34,F,New Kalalake,Asymptomatic,Active,21/08/2020
-PHOC-114,23,M,Old Cabalan,"Fever, cough and colds",Active,21/08/2020
-PHOC-113,68,F,East Bajac-Bajac,Chills and joint pains,Active,21/08/2020
-PHOC-112,23,M,New Cabalan,"Cold, anosmia and loss of apetite",Active,21/08/2020
-PHOC-111,38,M,Old Cabalan,Asymptomatic,Active,21/08/2020
-PHOC-110,0.8,M,Mabayuan,Asymptomatic,Active,21/08/2020
-PHOC-109,5,M,New Cabalan,Asymptomatic,Active,21/08/2020
-PHOC-108,22,F,New Cabalan,"Cough, Cold, Diarrhea and anosmia",Active,21/08/2020
-PHOC-107,81,F,New Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-102,69,M,East Tapinac,Loss of apetite and body weakness,Active,20/08/2020
+PHOC-103,27,M,Kalaklan,Fever,Active,20/08/2020
+PHOC-104,66,F,West Bajac Bajac,Fever with headache,Active,20/08/2020
+PHOC-105,47,M,Kalaklan,Asymptomatic,Active,20/08/2020
 PHOC-106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
+PHOC-106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
+PHOC-107,81,F,New Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-108,22,F,New Cabalan,"Cough, Cold, Diarrhea and anosmia",Active,21/08/2020
+PHOC-109,5,M,New Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-110,0.8,M,Mabayuan,Asymptomatic,Active,21/08/2020
+PHOC-111,38,M,Old Cabalan,Asymptomatic,Active,21/08/2020
+PHOC-112,23,M,New Cabalan,"Cold, anosmia and loss of apetite",Active,21/08/2020
+PHOC-113,68,F,East Bajac-Bajac,Chills and joint pains,Active,21/08/2020
+PHOC-114,23,M,Old Cabalan,"Fever, cough and colds",Active,21/08/2020
+PHOC-115,34,F,New Kalalake,Asymptomatic,Active,21/08/2020
+PHOC-116,69,M,Barretto,Asymptomatic,Active,21/08/2020
+PHOC-117,36,M,Gordon Heights,Asymptomatic,Active,23/08/2020
+PHOC-118,58,M,New Cabalan,Cough,Active,23/08/2020
+PHOC-119,52,M,New Kababae,"Chronic kidney disease",Active,23/08/2020
+PHOC-120,25,F,Old Cabalan,Asymptomatic,Active,23/08/2020
+PHOC-121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Active,23/08/2020
+PHOC-122,34,F,East Bajac Bajac,Asymptomatic,Active,23/08/2020
+PHOC-123,30,F,New Asinan,Asymptomatic,Active,23/08/2020
