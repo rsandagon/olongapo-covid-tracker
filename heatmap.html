@@ -133,9 +133,23 @@
                 </button>
             </form>
         </div>
-        <div class="flex-grow w-screen mt-2" id="map"></div>
-
-
+        <div class="flex flex-row flex-wrap flex-grow mt-2">
+            <div class="w-full md:w-1/3 xl:w-1/3 p-2">
+                <table class="w-full table-fixed bg-white border-transparent rounded-lg shadow-lg table-fixed">
+                    <thead>
+                        <tr>
+                            <th class="truncate px-4 py-2 w-1/2">Barangay</th>
+                            <th class="truncate px-4 py-2 w-1/4">Active</th>
+                            <th class="truncate px-4 py-2 w-1/4">Recovered</th>
+                            <th class="truncate px-4 py-2 w-1/4">Died</th>
+                        </tr>
+                    </thead>
+                    <tbody id="barangay-tbody">    
+                    </tbody>
+                </table>
+            </div>
+            <div class="w-full h-full md:w-2/3 xl:w-2/3 p-2" id="map"></div>
+        </div>
     </div>
     <script src="js/heatmap.js"></script>
     <script

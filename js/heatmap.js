@@ -48,9 +48,38 @@ function loadLegend() {
 
             legend = jsonData;
             initMap();
+            initTable();
             console.log(`legend loaded`)
         }
     });
+}
+
+initTable = ()=>{
+    let tBody = document.getElementById("barangay-tbody")
+    let tRows = ""
+ 
+        
+    barangays.sort((a, b) => {
+        if (a["active"] > b["active"]) {
+            return -1;
+        } else if (a["active"] < b["active"]) {
+            return 1;
+        }
+        return 0;
+    }); 
+
+    cnt = 0;
+    barangays.map(barangay => {
+        tRows = tRows + `<tr class="${(cnt%2 == 0) ? 'bg-blue-100' : ''}">
+            <td class="truncate border px-4 py-2">${barangay.name}</td>
+            <td class="truncate border px-4 py-2 ${(barangay.active > 0) ? 'font-bold text-red-500' : 'text-gray-500'} ">${barangay.active}</td>
+            <td class="truncate border px-4 py-2 ${(barangay.recovered > 0) ? 'font-bold text-green-500' : 'text-gray-500'} ">${barangay.recovered}</td>
+            <td class="truncate border px-4 py-2 ${(barangay.died > 0) ? 'font-bold' : 'text-gray-500'} ">${barangay.died}</td>
+        </tr>`
+        cnt++;
+    });
+
+    tBody.innerHTML = tRows
 }
 
 countStats = (location,status)=>{
