@@ -162,7 +162,7 @@ function initMap() {
         }
 
         // Specify icon
-        if(props.active > 0){
+        if((props.active - props.recovered) > 0 || props.name =="NO LOCATION"){
 
             let scale = (props.active /totalStats.active )*200 > 50 ? 50 : ((props.active /totalStats.active )*200 < 30 ? 30: (props.active /totalStats.active )*200)
             console.log(scale)
