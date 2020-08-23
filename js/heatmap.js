@@ -19,6 +19,8 @@ let barangays = [{name: "ASINAN", coordinate: [14.828236, 120.283887],recovered:
 {name: "WEST TAPINAC", coordinate: [14.832594, 120.280120],recovered:0,active:0,died:0},
 {name: "NO LOCATION", coordinate: [14.838875, 120.284379],recovered:0,active:0,died:0}]
 
+totalStats = {active:0,recovered:0,died:0}
+
 function loadLegend() {
     console.log('loadData')
 
@@ -57,12 +59,15 @@ countStats = (location,status)=>{
             switch (status.toUpperCase()) {
                 case "RECOVERED":
                     barangay['recovered']++;
+                    totalStats['recovered']++;
                     break;
                 case "DIED":
                     barangay['died']++;
+                    totalStats['died']++;
                     break;
                 default:
                     barangay['active']++;
+                    totalStats['active']++;
                     break;
             }
         }else if(barangay['name'] == "NO LOCATION" && !location){
@@ -146,17 +151,11 @@ function initMap() {
             content: props.name
         });
 
+        
         markers.push(marker);
 
-        var barangayIcon = {
+        let barangayIcon = {
             url: 'res/Red_Cross_icon.svg',
-            anchor: new google.maps.Point(10, 10),
-            scaledSize: new google.maps.Size(20, 20),
-            size: new google.maps.Size(50, 50),
-        }
-
-        var sickIcon = {
-            url: 'res/coronavirus.svg',
             anchor: new google.maps.Point(10, 10),
             scaledSize: new google.maps.Size(20, 20),
             size: new google.maps.Size(50, 50),
@@ -164,9 +163,20 @@ function initMap() {
 
         // Specify icon
         if(props.active > 0){
+
+            let scale = (props.active /totalStats.active )*200 > 50 ? 50 : ((props.active /totalStats.active )*200 < 30 ? 30: (props.active /totalStats.active )*200)
+            console.log(scale)
+            let sickIcon = {
+                url: 'res/coronavirus.svg',
+                anchor: new google.maps.Point(10, 10),
+                scaledSize: new google.maps.Size(scale, scale),
+                size: new google.maps.Size(50, 50),
+            }
             marker.setIcon(sickIcon);
+            marker.setAnimation(google.maps.Animation.BOUNCE);
         }else{
             marker.setIcon(barangayIcon);
+            marker.setAnimation(google.maps.Animation.DROP);
         }
         
         var infoWindow = new google.maps.InfoWindow({
