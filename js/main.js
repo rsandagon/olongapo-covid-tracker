@@ -23,20 +23,26 @@ Papa.parse("/data/data1.csv", {
         });
 
         let dataSet = [...results.data];
-
+        dataSet.shift();
+        
         let labels = dataSet.map(x => x[0])
-        let activeData = dataSet.map(x => x[1])
-        let recoveryData = dataSet.map(x => x[2])
-        let deathData = dataSet.map(x => x[3])
-        let confirmedData = dataSet.map(x => x[4])
+
+        
+
+        console.log(labels)
+
+        let activeData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[1]}})
+        let recoveryData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[2]}})
+        let deathData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[3]}})
+        let confirmedData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[4]}})
 
         new Chart(document.getElementById("chartjs-7"), {
             "type": "bar",
             "data": {
-                "labels": labels,
                 "datasets": [{
                     "label": "Active",
                     "data": activeData,
+                    "type": "line",
                     "borderColor": "rgb(255, 99, 132)",
                     "backgroundColor": "rgba(255, 99, 132, 0.2)"
                 }, {
@@ -64,6 +70,14 @@ Papa.parse("/data/data1.csv", {
                     "yAxes": [{
                         "ticks": {
                             "beginAtZero": true
+                        }
+                    }],
+                    xAxes: [{
+                        type: 'time',
+                        time: {
+                            displayFormats: {
+                                quarter: 'DD MM YYYY'
+                            }
                         }
                     }]
                 }
