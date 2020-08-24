@@ -55,32 +55,32 @@ PHOC-52,0.01,F,,Asymptomatic,Recovered,09/08/2020
 PHOC-51,0.1,F,,Stable condition,Recovered,09/08/2020
 PHOC-50,51,F,,Asymptomatic,Recovered,09/08/2020
 PHOC-49,27,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-48,33,M,,Asymptomatic,Active,09/08/2020
-PHOC-47,30,M,,Asymptomatic,Active,09/08/2020
+PHOC-48,33,M,,Asymptomatic,Recovered,09/08/2020
+PHOC-47,30,M,,Asymptomatic,Recovered,09/08/2020
 PHOC-46,56,M,,Asymptomatic,Recovered,09/08/2020
 PHOC-45,29,M,,Asymptomatic,Recovered,09/08/2020
 PHOC-61,65,M,,Sore throat and loss os sense of taste,Recovered,10/08/2020
 PHOC-62,61,F,West Bajac Bajac,"Fever, cough, shortness of breath",Active,11/08/2020
-PHOC-64,12,F,,Asymptomatic,Active,13/08/2020
-PHOC-63,35,M,,Asymptomatic,Active,13/08/2020
+PHOC-64,12,F,,Asymptomatic,Recovered,13/08/2020
+PHOC-63,35,M,,Asymptomatic,Recovered,13/08/2020
 PHOC-79,31,F,Mabayuan,Died,Died,14/08/2020
 PHOC-78,52,M,West Tapinac,Stable condition,Active,14/08/2020
 PHOC-77,51,M,West Tapinac,Fever with pneumonia,Active,14/08/2020
 PHOC-76,73,F,Gordon Heights,Fever,Active,14/08/2020
-PHOC-75,35,M,Gordon Heights,Asymptomatic,Active,14/08/2020
-PHOC-74,30,M,West Tapinac,Asymptomatic,Active,14/08/2020
-PHOC-73,25,F,East Tapinac,Asymptomatic,Active,14/08/2020
-PHOC-72,23,F,East Bajac-Bajac,Asymptomatic,Active,14/08/2020
-PHOC-71,45,M,Mabayuan,Cough and fever,Active,14/08/2020
+PHOC-75,35,M,Gordon Heights,Asymptomatic,Recovered,14/08/2020
+PHOC-74,30,M,West Tapinac,Asymptomatic,Recovered,14/08/2020
+PHOC-73,25,F,East Tapinac,Asymptomatic,Recovered,14/08/2020
+PHOC-72,23,F,East Bajac-Bajac,Asymptomatic,Recovered,14/08/2020
+PHOC-71,45,M,Mabayuan,Cough and fever,Recovered,14/08/2020
 PHOC-70,28,M,Banicain,Stable condition,Active,14/08/2020
-PHOC-69,32,M,Mabayuan,Fever and cough,Active,14/08/2020
+PHOC-69,32,M,Mabayuan,Fever and cough,Recovered,14/08/2020
 PHOC-68,38,M,Sta. Rita,Asymptomatic,Active,14/08/2020
 PHOC-67,35,M,Sta. Rita,Mild sore throat,Active,14/08/2020
 PHOC-66,39,M,New Kalalake,Stable condition,Active,14/08/2020
 PHOC-65,60,M,Sta. Rita,Cough and colds,Active,14/08/2020
 PHOC-80,32,M,West Bajac Bajac,Asymptomatic,Active,15/08/2020
 PHOC-82,41,M,New Ilalim,Asymptomatic,Active,16/08/2020
-PHOC-81,37,M,Sta. Rita,Asymptomatic,Active,16/08/2020
+PHOC-81,37,M,Sta. Rita,Asymptomatic,Recovered,16/08/2020
 PHOC-86,60,M,Sta. Rita,Asymptomatic,Active,17/08/2020
 PHOC-85,75,F,Barretto,Asymptomatic,Died,17/08/2020
 PHOC-84,68,F,Barretto,Asymptomatic,Active,17/08/2020
@@ -88,7 +88,7 @@ PHOC-83,69,M,West Bajac Bajac,Fever and cough,Active,17/08/2020
 PHOC-88,70,F,Kalaklan,"Fever, cough and difficulty breathing",Active,18/08/2020
 PHOC-87,55,M,Sta. Rita,Fever and itchy throat,Active,18/08/2020
 PHOC-100,6,F,West Tapinac,Asymptomatic,Active,19/08/2020
-PHOC-99,31,F,West Tapinac,Anosmia,Active,19/08/2020
+PHOC-99,31,F,West Tapinac,Anosmia,Recovered,19/08/2020
 PHOC-98,33,F,Asinan,Stable condition,Active,19/08/2020
 PHOC-97,56,F,Gordon Heights,Fever and cough,Active,19/08/2020
 PHOC-96,21,M,Banicain,Asymptomatic,Active,19/08/2020
@@ -123,3 +123,7 @@ PHOC-120,25,F,Old Cabalan,Asymptomatic,Active,23/08/2020
 PHOC-121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Active,23/08/2020
 PHOC-122,34,F,East Bajac Bajac,Asymptomatic,Active,23/08/2020
 PHOC-123,30,F,Asinan,Asymptomatic,Active,23/08/2020
+PHOC-124,20,F,Sta. Rita,Asymptomatic,Active,24/08/2020
+PHOC-125,70,M,Sta. Rita,"Fever, cold and dyspnea",Active,24/08/2020
+PHOC-126,43,M,West Bajac-Bajac,"Anosmia and ageusia",Active,24/08/2020
+PHOC-127,47,F,West Bajac-Bajac,Asymptomatic,Active,24/08/2020
