@@ -2,7 +2,7 @@
 Papa.parse("/data/data1.csv", {
     download: true,
 	complete: function(results) {
-        let currentValues = results.data[results.data.length-1]
+        let currentValues = results.data[results.data.length-2]
         // assign latest values
         document.getElementById("date-span").innerHTML = currentValues[0];
         document.getElementById("active-span").innerHTML = currentValues[1];
@@ -27,10 +27,6 @@ Papa.parse("/data/data1.csv", {
 	dataSet.pop();	
         
         let labels = dataSet.map(x => x[0])
-
-        
-
-        console.log(labels)
 
         let activeData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[1]}})
         let recoveryData = dataSet.map(x => {return{x: moment(x[0],'DD MM YYYY').toDate(), y:x[2]}})
