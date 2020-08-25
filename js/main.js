@@ -4,7 +4,7 @@ Papa.parse("/data/data1.csv", {
 	complete: function(results) {
         let currentValues = results.data[results.data.length-2]
         // assign latest values
-        document.getElementById("date-span").innerHTML = moment(currentValues[0],'DD MM YYYY').toDate();
+        document.getElementById("date-span").innerHTML = moment(currentValues[0],'DD MM YYYY').format('MMMM Do YYYY')
         document.getElementById("active-span").innerHTML = currentValues[1];
         document.getElementById("recovery-span").innerHTML = currentValues[2];
         document.getElementById("death-span").innerHTML = currentValues[3];
