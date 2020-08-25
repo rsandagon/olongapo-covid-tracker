@@ -29,6 +29,7 @@ function loadLegend() {
         complete: function (results) {
             let dataSet = [...results.data];
             dataSet.shift()
+            dataSet.pop()
 
             let jsonData = []
             dataSet.map(x => {
