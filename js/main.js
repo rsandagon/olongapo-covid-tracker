@@ -24,6 +24,7 @@ Papa.parse("/data/data1.csv", {
 
         let dataSet = [...results.data];
         dataSet.shift();
+	dataSet.pop();	
         
         let labels = dataSet.map(x => x[0])
 
@@ -94,6 +95,7 @@ Papa.parse("/data/data2.csv", {
         let tBody = document.getElementById("patients-tbody")
 
         dataSet.shift()
+	dataSet.pop()
         let tRows = ""
         dataSet.map(x => {
             tRows = tRows + `<tr class="${x[5] == 'Recovered'? 'bg-green-200':''} ${x[5] == 'Died'? 'bg-red-200':''}">
