@@ -27,9 +27,10 @@ length = len(fdataList)
 for i in range(length): 
     fdataList[i] = ''.join(filter(str.isdigit, fdataList[i]))
 today = datetime.today().strftime('%d %m %Y')
-f2 = open("data/data1.csv", "a+")
-f2.write(today + ',' + fdataList[1] + ',' + fdataList[2] + ',' + fdataList[3] + ',' + fdataList[0]  +'\n')
-f2.close()
+if length > 0 :
+    f2 = open("data/data1.csv", "a+")
+    f2.write(today + ',' + fdataList[1] + ',' + fdataList[2] + ',' + fdataList[3] + ',' + fdataList[0]  +'\n')
+    f2.close()
 
 f1.close()
 
@@ -55,11 +56,12 @@ fdata = fdata.replace("female", "F")
 fdata = fdata.replace("male", "M")
 fdataList = fdata.splitlines()
 length = len(fdataList) 
-f2 = open("data/data2.csv", "a+")
-today = datetime.today().strftime('%d/%m/%Y')
-for i in range(length): 
-    f2.write(fdataList[i] + ',,Active,' + today + '\n')
-f2.close()
+if length > 0 :
+    f2 = open("data/data2.csv", "a+")
+    today = datetime.today().strftime('%d/%m/%Y')
+    for i in range(length): 
+        f2.write(fdataList[i] + ',,Active,' + today + '\n')
+    f2.close()
 f1.close()
 
 # remove content for update
