@@ -28,7 +28,7 @@ for i in range(length):
     fdataList[i] = ''.join(filter(str.isdigit, fdataList[i]))
 today = datetime.today().strftime('%d %m %Y')
 f2 = open("data/data1.csv", "a+")
-f2.write(today + ',' + fdataList[1] + ',' + fdataList[2] + ',' + fdataList[3] + ',' + fdataList[0] + ',' +'\n')
+f2.write(today + ',' + fdataList[1] + ',' + fdataList[2] + ',' + fdataList[3] + ',' + fdataList[0]  +'\n')
 f2.close()
 
 f1.close()
