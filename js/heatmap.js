@@ -8,7 +8,6 @@ let barangays = [{name: "ASINAN", coordinate: [14.828236, 120.283887],recovered:
 {name: "KALAKLAN", coordinate: [14.834816, 120.272189],recovered:0,active:0,died:0},
 {name: "MABAYUAN", coordinate: [14.848098, 120.281492],recovered:0,active:0,died:0},
 {name: "NEW CABALAN", coordinate: [14.850711, 120.329373],recovered:0,active:0,died:0},
-{name: "MABAYUAN", coordinate: [14.848098, 120.281492],recovered:0,active:0,died:0},
 {name: "NEW ILALIM", coordinate: [14.834860, 120.279002],recovered:0,active:0,died:0},
 {name: "NEW KABABAE", coordinate: [14.831199, 120.277513],recovered:0,active:0,died:0},
 {name: "NEW KALALAKE", coordinate: [14.831969, 120.288937],recovered:0,active:0,died:0},
