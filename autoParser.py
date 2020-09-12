@@ -40,6 +40,7 @@ df2 = pd.DataFrame(db2Csv)
 
 # Patient,Age,Gender,Location,Condition,Status,Date
 # ◙ PHOC-152 is a 62 year-old Filipino male from Barretto
+# -year-old Filipino M
 print('Step 2: Update New Cases')
 f1 = open("data/newCases.txt", "r+")
 
@@ -49,7 +50,10 @@ fdata = fdata.replace("â—™ ", "")
 fdata = fdata.replace("◙ ", "")
 fdata = fdata.replace(" who is a ", ",")
 fdata = fdata.replace(" is a ", ",")
+fdata = fdata.replace(" is an ", ",")
+fdata = fdata.replace("-year-old Filipino ", ",")
 fdata = fdata.replace(" year-old Filipino ", ",")
+fdata = fdata.replace(" year-old ", ",")
 fdata = fdata.replace(" is a ", ",")
 fdata = fdata.replace(" from ", ",")
 fdata = fdata.replace("female", "F")

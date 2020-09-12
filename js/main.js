@@ -94,8 +94,8 @@ Papa.parse("/data/data2.csv", {
 	dataSet.pop()
         let tRows = ""
         dataSet.map(x => {
-            tRows = tRows + `<tr class="${x[5] == 'Recovered'? 'bg-green-200':''} ${x[5] == 'Died'? 'bg-red-200':''}">
-                <td class="truncate border px-4 py-2">${x[0]}</td>
+            tRows = tRows + `<tr class="${x[5] == 'Recovered'? 'bg-green-200':''} ${x[5] == 'Active'? 'bg-yellow-200':''} ${x[5] == 'Died'? 'bg-red-200':''}">
+                <td class="truncate border px-4 py-2">PHOC-${x[0]}</td>
                 <td class="truncate border px-4 py-2">${x[1]}</td>
                 <td class="truncate border px-4 py-2">${x[2]}</td>
                 <td class="truncate border px-4 py-2">${x[3]}</td>

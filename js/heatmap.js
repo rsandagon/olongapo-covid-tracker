@@ -185,14 +185,14 @@ function initMap() {
         markers.push(marker);
 
         let barangayIcon = {
-            url: 'res/Red_Cross_icon.svg',
+            url: 'res/coronavirus.svg',
             anchor: new google.maps.Point(10, 10),
             scaledSize: new google.maps.Size(20, 20),
             size: new google.maps.Size(50, 50),
         }
 
         // Specify icon
-        if((props.active - props.recovered) > 0 || props.name =="NO LOCATION"){
+        if((props.active) > 0 || props.name =="NO LOCATION"){
 
             let scale = (props.active /totalStats.active )*200 > 50 ? 50 : ((props.active /totalStats.active )*200 < 30 ? 30: (props.active /totalStats.active )*200)
             console.log(scale)
@@ -206,7 +206,7 @@ function initMap() {
             marker.setAnimation(google.maps.Animation.BOUNCE);
         }else{
             marker.setIcon(barangayIcon);
-            marker.setAnimation(google.maps.Animation.DROP);
+            marker.setAnimation(google.maps.Animation.BOUNCE);
         }
         
         var infoWindow = new google.maps.InfoWindow({

@@ -1,274 +1,274 @@
 ﻿Patient,Age,Gender,Location,Condition,Status,Date
-PHOC-1,75,M,,Stable condition,Recovered,28/03/2020
-PHOC-2,45,M,,Stable condition,Recovered,04/04/2020
-PHOC-3,2,M,,Stable condition,Recovered,05/04/2020
-PHOC-4,23,F,,Chills,Recovered,06/04/2020
-PHOC-5,35,F,,Stable condition,Recovered,10/04/2020
-PHOC-7,36,F,,Stable condition,Recovered,14/04/2020
-PHOC-6,55,F,,Stable condition,Recovered,14/04/2020
-PHOC-9,61,F,,Stable condition,Recovered,17/04/2020
-PHOC-8,48,F,,Stable condition,Recovered,17/04/2020
-PHOC-11,29,F,,Stable condition,Recovered,05/05/2020
-PHOC-10,0.6,F,,Stable condition,Recovered,05/05/2020
-PHOC-12,18,F,,Stable condition,Recovered,15/05/2020
-PHOC-14,47,M,,Difficulty breathing,Active,26/05/2020
-PHOC-13,58,F,,Breast cancer,Died,26/05/2020
-PHOC-15,23,F,,Asymptomatic,Active,02/07/2020
-PHOC-44,32,F,,Asymptomatic,Recovered,07/07/2020
-PHOC-43,58,M,,Asymptomatic,Active,07/07/2020
-PHOC-42,30,M,,Asymptomatic,Recovered,07/07/2020
-PHOC-41,54,M,,Asymptomatic,Recovered,07/07/2020
-PHOC-40,45,F,,Asymptomatic,Recovered,07/07/2020
-PHOC-39,53,F,,Asymptomatic,Active,07/07/2020
-PHOC-16,76,M,,Asymptomatic,Recovered,19/07/2020
-PHOC-18,27,M,,Asymptomatic,Active,20/07/2020
-PHOC-17,37,M,,Asymptomatic,Active,20/07/2020
-PHOC-20,72,F,,Difficulty breathing,Died,21/07/2020
-PHOC-19,55,M,,Asymptomatic,Recovered,21/07/2020
-PHOC-23,18,M,,Asymptomatic,Recovered,22/07/2020
-PHOC-22,19,F,,Asymptomatic,Recovered,22/07/2020
-PHOC-21,45,F,,Asymptomatic,Recovered,22/07/2020
-PHOC-25,27,F,,Asymptomatic,Recovered,24/07/2020
-PHOC-24,30,M,,Asymptomatic,Recovered,24/07/2020
-PHOC-27,,,,,Recovered,25/07/2020
-PHOC-26,,,,,Recovered,25/07/2020
-PHOC-31,53,M,,Fever,Active,30/07/2020
-PHOC-30,51,M,,Asymptomatic,Active,30/07/2020
-PHOC-29,65,M,,with symptoms,Recovered,30/07/2020
-PHOC-28,57,F,,Asymptomatic,Recovered,30/07/2020
-PHOC-34,16,M,,Asymptomatic,Active,01/08/2020
-PHOC-33,18,F,,Anosmia,Active,01/08/2020
-PHOC-32,52,F,,Anosmia,Active,01/08/2020
-PHOC-35,28,M,,"coughs, cold and fever",Recovered,04/08/2020
-PHOC-36,21,F,,Fever,Recovered,05/08/2020
-PHOC-37,47,F,,Asymptomatic,Active,06/08/2020
-PHOC-38,26,F,,Fever,Recovered,07/08/2020
-PHOC-60,38,F,,Asymptomatic,Recovered,09/08/2020
-PHOC-59,23,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-58,19,M,,Headache,Active,09/08/2020
-PHOC-57,21,F,,Fever and Sore Throat,Recovered,09/08/2020
-PHOC-56,20,M,,Cold,Recovered,09/08/2020
-PHOC-55,54,F,,Asymptomatic,Recovered,09/08/2020
-PHOC-54,24,M,,Stable condition,Recovered,09/08/2020
-PHOC-53,26,F,,"Fever, coughs and cold",Recovered,09/08/2020
-PHOC-52,0.01,F,,Asymptomatic,Recovered,09/08/2020
-PHOC-51,0.1,F,,Stable condition,Recovered,09/08/2020
-PHOC-50,51,F,,Asymptomatic,Recovered,09/08/2020
-PHOC-49,27,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-48,33,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-47,30,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-46,56,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-45,29,M,,Asymptomatic,Recovered,09/08/2020
-PHOC-61,65,M,,Sore throat and loss os sense of taste,Recovered,10/08/2020
-PHOC-62,61,F,West Bajac Bajac,"Fever, cough, shortness of breath",Recovered,11/08/2020
-PHOC-64,12,F,,Asymptomatic,Recovered,13/08/2020
-PHOC-63,35,M,,Asymptomatic,Recovered,13/08/2020
-PHOC-79,31,F,Mabayuan,Died,Died,14/08/2020
-PHOC-78,52,M,West Tapinac,Stable condition,Recovered,14/08/2020
-PHOC-77,51,M,West Tapinac,Fever with pneumonia,Recovered,14/08/2020
-PHOC-76,73,F,Gordon Heights,Fever,Active,14/08/2020
-PHOC-75,35,M,Gordon Heights,Asymptomatic,Recovered,14/08/2020
-PHOC-74,30,M,West Tapinac,Asymptomatic,Recovered,14/08/2020
-PHOC-73,25,F,East Tapinac,Asymptomatic,Recovered,14/08/2020
-PHOC-72,23,F,East Bajac-Bajac,Asymptomatic,Recovered,14/08/2020
-PHOC-71,45,M,Mabayuan,Cough and fever,Recovered,14/08/2020
-PHOC-70,28,M,Banicain,Stable condition,Recovered,14/08/2020
-PHOC-69,32,M,Mabayuan,Fever and cough,Recovered,14/08/2020
-PHOC-68,38,M,Sta. Rita,Asymptomatic,Recovered,14/08/2020
-PHOC-67,35,M,Sta. Rita,Mild sore throat,Recovered,14/08/2020
-PHOC-66,39,M,New Kalalake,Stable condition,Recovered,14/08/2020
-PHOC-65,60,M,Sta. Rita,Cough and colds,Active,14/08/2020
-PHOC-80,32,M,West Bajac Bajac,Asymptomatic,Active,15/08/2020
-PHOC-82,41,M,New Ilalim,Asymptomatic,Active,16/08/2020
-PHOC-81,37,M,Sta. Rita,Asymptomatic,Recovered,16/08/2020
-PHOC-86,60,M,Sta. Rita,Asymptomatic,Active,17/08/2020
-PHOC-85,75,F,Barretto,Asymptomatic,Died,17/08/2020
-PHOC-84,68,F,Barretto,Asymptomatic,Active,17/08/2020
-PHOC-83,69,M,West Bajac Bajac,Fever and cough,Active,17/08/2020
-PHOC-88,70,F,Kalaklan,"Fever, cough and difficulty breathing",Active,18/08/2020
-PHOC-87,55,M,Sta. Rita,Fever and itchy throat,Recovered,18/08/2020
-PHOC-100,6,F,West Tapinac,Asymptomatic,Active,19/08/2020
-PHOC-99,31,F,West Tapinac,Anosmia,Recovered,19/08/2020
-PHOC-98,33,F,Asinan,Stable condition,Active,19/08/2020
-PHOC-97,56,F,Gordon Heights,Fever and cough,Active,19/08/2020
-PHOC-96,21,M,Banicain,Asymptomatic,Active,19/08/2020
-PHOC-95,31,M,Gordon Heights,Asymptomatic,Active,19/08/2020
-PHOC-94,39,M,Banicain,Asymptomatic,Active,19/08/2020
-PHOC-93,43,M,West Tapinac,Asymptomatic,Active,19/08/2020
-PHOC-92,34,M,Banicain,Asymptomatic,Active,19/08/2020
-PHOC-91,32,M,Barretto,Asymptomatic,Active,19/08/2020
-PHOC-90,43,M,Gordon Heights,Asymptomatic,Active,19/08/2020
-PHOC-89,41,M,Mabayuan,Asymptomatic,Active,19/08/2020
-PHOC-101,79,F,Gordon Heights,"Fever, chills and aphasia",Active,20/08/2020
-PHOC-102,69,M,East Tapinac,Loss of apetite and body weakness,Died,20/08/2020
-PHOC-103,27,M,Kalaklan,Fever,Active,20/08/2020
-PHOC-104,66,F,West Bajac Bajac,Fever with headache,Active,20/08/2020
-PHOC-105,47,M,Kalaklan,Asymptomatic,Active,20/08/2020
-PHOC-106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
-PHOC-106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
-PHOC-107,81,F,New Cabalan,Asymptomatic,Active,21/08/2020
-PHOC-108,22,F,New Cabalan,"Cough, Cold, Diarrhea and anosmia",Active,21/08/2020
-PHOC-109,5,M,New Cabalan,Asymptomatic,Active,21/08/2020
-PHOC-110,0.8,M,Mabayuan,Asymptomatic,Recovered,21/08/2020
-PHOC-111,38,M,Old Cabalan,Asymptomatic,Active,21/08/2020
-PHOC-112,23,M,New Cabalan,"Cold, anosmia and loss of apetite",Active,21/08/2020
-PHOC-113,68,F,East Bajac-Bajac,Chills and joint pains,Active,21/08/2020
-PHOC-114,23,M,Old Cabalan,"Fever, cough and colds",Active,21/08/2020
-PHOC-115,34,F,New Kalalake,Asymptomatic,Active,21/08/2020
-PHOC-116,69,M,Barretto,Asymptomatic,Active,21/08/2020
-PHOC-117,36,M,Gordon Heights,Asymptomatic,Active,23/08/2020
-PHOC-118,58,M,New Cabalan,Cough,Active,23/08/2020
-PHOC-119,52,M,New Kababae,"Chronic kidney disease",Active,23/08/2020
-PHOC-120,25,F,Old Cabalan,Asymptomatic,Active,23/08/2020
-PHOC-121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Active,23/08/2020
-PHOC-122,34,F,East Bajac Bajac,Asymptomatic,Active,23/08/2020
-PHOC-123,30,F,Asinan,Asymptomatic,Active,23/08/2020
-PHOC-124,20,F,Sta. Rita,Asymptomatic,Active,24/08/2020
-PHOC-125,70,M,Sta. Rita,"Fever, cold and dyspnea",Active,24/08/2020
-PHOC-126,43,M,West Bajac-Bajac,"Anosmia and ageusia",Active,24/08/2020
-PHOC-127,47,F,West Bajac-Bajac,Asymptomatic,Active,24/08/2020
-PHOC-128,20,F,West Tapinac,"Cough and cold but stable",Active,25/08/2020
-PHOC-129,44,F,West Tapinac,"Cough and cold but stable",Active,25/08/2020
-PHOC-130,16,F,West Tapinac,"Cough and cold but stable",Active,25/08/2020
-PHOC-131,15,F,Sta. Rita,"Cough and cold but stable",Active,25/08/2020
-PHOC-132,45,F,Sta. Rita,"Cough and cold but stable",Active,25/08/2020
-PHOC-133,80,F,Sta. Rita,"Cough and cold but stable",Active,25/08/2020
-PHOC-134,64,M,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-135,12,F,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-136,5,M,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-137,2,M,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-138,34,F,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-139,36,F,Kalaklan,Asymptomatic,Active,25/08/2020
-PHOC-140,0,F,Mabayuan,Asymptomatic,Active,25/08/2020
-PHOC-141,5,F,Kalaklan,Asymptomatic,Active,25/08/2020
-PHOC-142,26,F,Sta. Rita,"Cough and fever",Active,25/08/2020
-PHOC-143,10,F,Mabayuan,Asymptomatic,Active,26/08/2020
-PHOC-144,18,F,New Cabalan,Asymptomatic,Active,26/08/2020
-PHOC-145,52,F,New Cabalan,Asymptomatic,Active,26/08/2020
-PHOC-146,27,M,New Cabalan,Asymptomatic,Active,26/08/2020
-PHOC-147,28,F,New Cabalan,Cough,Active,26/08/2020
-PHOC-148,8,F,New Cabalan,Asymptomatic,Active,26/08/2020
-PHOC-149,68,M,East Bajac-Bajac,Asymptomatic,Active,26/08/2020
-PHOC-150,47,F,East Bajac-Bajac,Asymptomatic,Active,26/08/2020
-PHOC-151,53,M,East Bajac-Bajac,Asymptomatic,Active,26/08/2020
-PHOC-152,62,M,Barretto,,Active,27/08/2020
-PHOC-153,60,M,East Tapinac,,Active,27/08/2020
-PHOC-154,23,F,Mabayuan,,Active,27/08/2020
-PHOC-155,24,F,New Kalalake,,Active,27/08/2020
-PHOC-156,20,M,Sta. Rita,,Active,27/08/2020
-PHOC-157,32,M,East Tapinac,,Active,27/08/2020
-PHOC-158,29,F,Sta. Rita,,Active,27/08/2020
-PHOC-159,55,F,New Cabalan.,,Active,27/08/2020
-PHOC-160,28,M,Sta. Rita,,Active,27/08/2020
-PHOC-161,40,M,West Bajac-Bajac,,Active,27/08/2020
-PHOC-162,52,M,West Tapinac,,Active,28/08/2020
-PHOC-163 is an 18,M,Gordon Heights,,Active,28/08/2020
-PHOC-164,50,F,Sta. Rita,,Active,28/08/2020
-PHOC-165,64,M,East Bajac-Bajac,,Active,28/08/2020
-PHOC-166,60,F,East Bajac-Bajac,,Active,28/08/2020
-PHOC-167,49,M,Sta. Rita,,Active,28/08/2020
-PHOC-168,48,F,Sta. Rita,,Active,28/08/2020
-PHOC-169,17,M,Sta. Rita,,Active,28/08/2020
-PHOC-170,38,F,Sta. Rita,,Active,28/08/2020
-PHOC-171,27,F,Asinan,,Active,28/08/2020
-PHOC-172,28,M,New Kababae,,Active,28/08/2020
-PHOC-173,22,F,Sta. Rita,,Active,28/08/2020
-PHOC-174,38,F,Barretto,,Active,28/08/2020
-PHOC-175,10,M,Sta. Rita,,Active,28/08/2020
-PHOC-176,25,F,Old Cabalan,,Active,28/08/2020
-PHOC-177,49,F,Banicain,,Active,28/08/2020
-PHOC-178,40,F,New Cabalan,,Active,28/08/2020
-PHOC-179,39,M,West Bajac-Bajac,,Active,28/08/2020
-PHOC-180,17,F,West Bajac-Bajac,,Active,28/08/2020
-PHOC-181,27,F,Pag-asa,,Active,28/08/2020
-PHOC-182,33,F,Banicain,,Active,28/08/2020
-PHOC-183,36,F,Gordon Heights,,Active,28/08/2020
-PHOC-184,26,M,West Tapinac,,Active,28/08/2020
-PHOC-185,26,M,East Bajac-Bajac,,Active,28/08/2020
-PHOC-186,29,F,Sta. Rita,,Active,28/08/2020
-PHOC-187,29,M,Sta. Rita,,Active,28/08/2020
-PHOC-188,54,F,New Cabalan,,Active,28/08/2020
-PHOC-189,27,M,Banicain,,Active,13/09/2020
-PHOC-190,35,M,Kalaklan,,Active,13/09/2020
-PHOC-191,27,F,Kalaklan,,Active,13/09/2020
-PHOC-192,39,M,West Tapinac,,Active,13/09/2020
-PHOC-193,26,M,East Tapinac,,Active,13/09/2020
-PHOC-194,41,F,Sta. Rita,,Active,13/09/2020
-PHOC-195,25,F,Asinan,,Active,13/09/2020
-PHOC-196,22,M,Sta. Rita,,Active,13/09/2020
-PHOC-197,32,F,Asinan,,Active,13/09/2020
-PHOC-198,59,F,Mabayuan,,Active,13/09/2020
-PHOC-199,49,M,East Tapinac,,Active,13/09/2020
-PHOC-200,17,M,East Tapinac,,Active,13/09/2020
-PHOC-201,37,M,Gordon Heights ,,Active,13/09/2020
-PHOC-202,79,M,East Tapinac,,Active,13/09/2020
-PHOC-203,43,F,East Bajac-Bajac,,Active,13/09/2020
-PHOC-204,64,M,East Bajac-Bajac,,Active,13/09/2020
-PHOC-205,50,M,Gordon Heights,,Active,13/09/2020
-PHOC-206,26,M,Sta. Rita,,Active,13/09/2020
-PHOC-207,27,F,Sta. Rita,,Active,13/09/2020
-PHOC-208,70,M,West Bajac-Bajac,,Active,13/09/2020
-PHOC-209 is 30,F,West Bajac-Bajac,,Active,13/09/2020
-PHOC-210,67,M,East Bajac-Bajac,,Active,13/09/2020
-PHOC-211,29,F,Pag-Asa,,Active,13/09/2020
-PHOC-212,69,F,Sta. Rita,,Active,13/09/2020
-PHOC-213,40,F,East Bajac-Bajac,,Active,13/09/2020
-PHOC-214,72,F,East Bajac-Bajac,,Active,13/09/2020
-PHOC-215,74,F,Sta. Rita,,Active,13/09/2020
-PHOC-216,26,F,Pag-asa,,Active,13/09/2020
-PHOC-217,51,F,New Cabalan,,Active,13/09/2020
-PHOC-218,37,F,Sta. Rita,,Active,13/09/2020
-PHOC-219,30,F,Asinan ,,Active,13/09/2020
-PHOC-220,22,F,Asinan,,Active,13/09/2020
-PHOC-221,43,M,Banicain,,Active,13/09/2020
-PHOC-222,16,M,Sta. Rita,,Active,13/09/2020
-PHOC-223,29,F,West Tapinac,,Active,13/09/2020
-PHOC-224,39 year-old pregnant Filipino F,Sta. Rita,,Active,13/09/2020
-PHOC-225 is 23-year-old Filipino M,East Tapinac,,Active,13/09/2020
-PHOC-226,39,M,New Kalalake,,Active,13/09/2020
-PHOC-227,41,F,Mabayuan,,Active,13/09/2020
-PHOC-228,64,M,New Cabalan,,Active,13/09/2020
-PHOC-229,48,F,East Bajac-Bajac,,Active,13/09/2020
-PHOC-230,57,F,New Cabalan,,Active,13/09/2020
-PHOC-231,63,M,New Kalalake,,Active,13/09/2020
-PHOC-232,53,M,New Kababae,,Active,13/09/2020
-PHOC-233,64,F,Sta. Rita,,Active,13/09/2020
-PHOC-234,91,F,Sta. Rita,,Active,13/09/2020
-PHOC-235,36,F,Sta. Rita,,Active,13/09/2020
-PHOC-236,36,M,West Bajac-Bajac,,Active,13/09/2020
-PHOC-237,57 year-old Indian M,East Tapinac,,Active,13/09/2020
-PHOC-238,55,M,Gordon Heights,,Active,13/09/2020
-PHOC-239,40,F,Gordon Heights,,Active,13/09/2020
-PHOC-240,74,F,Gordon Heights,,Active,13/09/2020
-PHOC-241,75,M,Gordon Heights,,Active,13/09/2020
-PHOC-242,15,M,Banicain,,Active,13/09/2020
-PHOC-243, a 57,M,New Cabalan,,Active,13/09/2020
-PHOC-244, a 52-year-old Filipino M,East Bajac-Bajac,,Active,13/09/2020
-PHOC-245,32-year-old Filipino M,Gordon Heights,,Active,13/09/2020
-PHOC-246,60,F,Gordon Heights,,Active,13/09/2020
-PHOC-247,28-year-old Filipino F,Gordon Heights,,Active,13/09/2020
-PHOC-248,55,F,Sta. Rita,,Active,13/09/2020
-PHOC-249,34,F,Sta. Rita,,Active,13/09/2020
-PHOC-250,68,F,New Cabalan,,Active,13/09/2020
-PHOC-251,23-year-old Filipino F,Old Cabalan,,Active,13/09/2020
-PHOC-252,41,M,Old Cabalan,,Active,13/09/2020
-PHOC-253,27,F,Old Cabalan,,Active,13/09/2020
-PHOC-254,30,F,Old Cabalan ,,Active,13/09/2020
-PHOC-255 is 26,M,Asinan ,,Active,13/09/2020
-PHOC-256,52,F,Asinan,,Active,13/09/2020
-PHOC-257,31,F,East Tapinac ,,Active,13/09/2020
-PHOC-258,34,F,Mabayuan,,Active,13/09/2020
-PHOC-259,31year-old Filipino F,East Tapinac,,Active,13/09/2020
-PHOC-260 is 54,M,Mabayuan,,Active,13/09/2020
-PHOC-261 is an 85,M,Pag-Asa,,Active,13/09/2020
-PHOC-262,60-year-old Filipino M,Old Cabalan,,Active,13/09/2020
-PHOC-263,72,F,New Kalalake ,,Active,13/09/2020
-PHOC-264,30,M,Banicain ,,Active,13/09/2020
-PHOC-265,34,M,East Tapinac,,Active,13/09/2020
-PHOC-266,45,F,West Bajac-Bajac,,Active,13/09/2020
-PHOC-267,65,F,Gordon Heights,,Active,13/09/2020
-PHOC-268,30 year-old M,West Bajac-Bajac,,Active,13/09/2020
-PHOC-269,55,F,West Tapinac ,,Active,13/09/2020
-PHOC-270 is 49,F,Mabayuan,,Active,13/09/2020
-PHOC-271,31,F,Pag-Asa ,,Active,13/09/2020
-PHOC-272,28,M,East Bajac-Bajac,,Active,13/09/2020
+272,28,M,East Bajac-Bajac,,Active,13/09/2020
+271,31,F,Pag-Asa ,,Active,13/09/2020
+270,49,F,Mabayuan,,Active,13/09/2020
+269,55,F,West Tapinac ,,Active,13/09/2020
+268,30,M,West Bajac-Bajac,,Active,13/09/2020
+267,65,F,Gordon Heights,,Active,13/09/2020
+266,45,F,West Bajac-Bajac,,Active,13/09/2020
+265,34,M,East Tapinac,,Active,13/09/2020
+264,30,M,Banicain ,,Active,13/09/2020
+263,72,F,New Kalalake ,,Active,13/09/2020
+262,60,M,Old Cabalan,,Active,13/09/2020
+261,85,M,Pag-Asa,,Active,13/09/2020
+260,54,M,Mabayuan,,Active,13/09/2020
+259,31,F,East Tapinac,,Active,13/09/2020
+258,34,F,Mabayuan,,Active,13/09/2020
+257,31,F,East Tapinac ,,Active,13/09/2020
+256,52,F,Asinan,,Active,13/09/2020
+255,26,M,Asinan ,,Active,13/09/2020
+254,30,F,Old Cabalan ,,Active,13/09/2020
+253,27,F,Old Cabalan,,Active,13/09/2020
+252,41,M,Old Cabalan,,Active,13/09/2020
+251,23,F,Old Cabalan,,Active,13/09/2020
+250,68,F,New Cabalan,,Active,13/09/2020
+249,34,F,Sta. Rita,,Active,13/09/2020
+248,55,F,Sta. Rita,,Active,13/09/2020
+247,28,F,Gordon Heights,,Active,13/09/2020
+246,60,F,Gordon Heights,,Active,13/09/2020
+245,32,M,Gordon Heights,,Active,13/09/2020
+244,52,M,East Bajac-Bajac,,Active,13/09/2020
+243,57,M,New Cabalan,,Active,13/09/2020
+242,15,M,Banicain,,Active,13/09/2020
+241,75,M,Gordon Heights,,Active,13/09/2020
+240,74,F,Gordon Heights,,Active,13/09/2020
+239,40,F,Gordon Heights,,Active,13/09/2020
+238,55,M,Gordon Heights,,Active,13/09/2020
+237,57,N,East Tapinac,,Active,13/09/2020
+236,36,M,West Bajac-Bajac,,Active,13/09/2020
+235,36,F,Sta. Rita,,Active,13/09/2020
+234,91,F,Sta. Rita,,Active,13/09/2020
+233,64,F,Sta. Rita,,Active,13/09/2020
+232,53,M,New Kababae,,Active,13/09/2020
+231,63,M,New Kalalake,,Active,13/09/2020
+230,57,F,New Cabalan,,Active,13/09/2020
+229,48,F,East Bajac-Bajac,,Active,13/09/2020
+228,64,M,New Cabalan,,Active,13/09/2020
+227,41,F,Mabayuan,,Active,13/09/2020
+226,39,M,New Kalalake,,Active,13/09/2020
+225,23,M,East Tapinac,,Active,13/09/2020
+224,39,F,Sta. Rita,,Active,13/09/2020
+223,29,F,West Tapinac,,Active,13/09/2020
+222,16,M,Sta. Rita,,Active,13/09/2020
+221,43,M,Banicain,,Active,13/09/2020
+220,22,F,Asinan,,Active,13/09/2020
+219,30,F,Asinan ,,Active,13/09/2020
+218,37,F,Sta. Rita,,Active,13/09/2020
+217,51,F,New Cabalan,,Active,13/09/2020
+216,26,F,Pag-asa,,Active,13/09/2020
+215,74,F,Sta. Rita,,Active,13/09/2020
+214,72,F,East Bajac-Bajac,,Active,13/09/2020
+213,40,F,East Bajac-Bajac,,Active,13/09/2020
+212,69,F,Sta. Rita,,Active,13/09/2020
+211,29,F,Pag-Asa,,Active,13/09/2020
+210,67,M,East Bajac-Bajac,,Active,13/09/2020
+209,30,F,West Bajac-Bajac,,Active,13/09/2020
+208,70,M,West Bajac-Bajac,,Active,13/09/2020
+207,27,F,Sta. Rita,,Active,13/09/2020
+206,26,M,Sta. Rita,,Active,13/09/2020
+205,50,M,Gordon Heights,,Active,13/09/2020
+204,64,M,East Bajac-Bajac,,Recovered,13/09/2020
+203,43,F,East Bajac-Bajac,,Active,13/09/2020
+202,79,M,East Tapinac,,Active,13/09/2020
+201,37,M,Gordon Heights ,,Active,13/09/2020
+200,17,M,East Tapinac,,Active,13/09/2020
+199,49,M,East Tapinac,,Active,13/09/2020
+198,59,F,Mabayuan,,Active,13/09/2020
+197,32,F,Asinan,,Active,13/09/2020
+196,22,M,Sta. Rita,,Active,13/09/2020
+195,25,F,Asinan,,Active,31/08/2020
+194,41,F,Sta. Rita,,Active,31/08/2020
+193,26,M,East Tapinac,,Active,31/08/2020
+192,39,M,West Tapinac,,Recovered,31/08/2020
+191,27,F,Kalaklan,,Recovered,29/08/2020
+190,35,M,Kalaklan,,Recovered,29/08/2020
+189,27,M,Banicain,,Recovered,28/08/2020
+188,54,F,New Cabalan,,Recovered,28/08/2020
+187,29,M,Sta. Rita,,Recovered,28/08/2020
+186,29,F,Sta. Rita,,Recovered,28/08/2020
+185,26,M,East Bajac-Bajac,,Active,28/08/2020
+184,26,M,West Tapinac,,Recovered,28/08/2020
+183,36,F,Gordon Heights,,Active,28/08/2020
+182,33,F,Banicain,,Recovered,28/08/2020
+181,27,F,Pag-asa,,Recovered,28/08/2020
+180,17,F,West Bajac-Bajac,,Recovered,28/08/2020
+179,39,M,West Bajac-Bajac,,Recovered,28/08/2020
+178,40,F,New Cabalan,,Recovered,28/08/2020
+177,49,F,Banicain,,Recovered,28/08/2020
+176,25,F,Old Cabalan,,Recovered,28/08/2020
+175,10,M,Sta. Rita,,Recovered,28/08/2020
+174,38,F,Barretto,,Recovered,28/08/2020
+173,22,F,Sta. Rita,,Recovered,28/08/2020
+172,28,M,New Kababae,,Recovered,28/08/2020
+171,27,F,Asinan,,Recovered,28/08/2020
+170,38,F,Sta. Rita,,Recovered,28/08/2020
+169,17,M,Sta. Rita,,Recovered,28/08/2020
+168,48,F,Sta. Rita,,Recovered,28/08/2020
+167,49,M,Sta. Rita,,Recovered,28/08/2020
+166,60,F,East Bajac-Bajac,,Active,28/08/2020
+165,64,M,East Bajac-Bajac,,Active,28/08/2020
+164,50,F,Sta. Rita,,Recovered,28/08/2020
+163,18,M,Gordon Heights,,Recovered,28/08/2020
+162,52,M,West Tapinac,,Recovered,28/08/2020
+161,40,M,West Bajac-Bajac,,Recovered,27/08/2020
+160,28,M,Sta. Rita,,Recovered,27/08/2020
+159,55,F,New Cabalan.,,Recovered,27/08/2020
+158,29,F,Sta. Rita,,Recovered,27/08/2020
+157,32,M,East Tapinac,,Recovered,27/08/2020
+156,20,M,Sta. Rita,,Recovered,27/08/2020
+155,24,F,New Kalalake,,Recovered,27/08/2020
+154,23,F,Mabayuan,,Recovered,27/08/2020
+153,60,M,East Tapinac,,Recovered,27/08/2020
+152,62,M,Barretto,,Recovered,27/08/2020
+151,53,M,East Bajac-Bajac,Asymptomatic,Active,26/08/2020
+150,47,F,East Bajac-Bajac,Asymptomatic,Recovered,26/08/2020
+149,68,M,East Bajac-Bajac,Asymptomatic,Recovered,26/08/2020
+148,8,F,New Cabalan,Asymptomatic,Recovered,26/08/2020
+147,28,F,New Cabalan,Cough,Recovered,26/08/2020
+146,27,M,New Cabalan,Asymptomatic,Recovered,26/08/2020
+145,52,F,New Cabalan,Asymptomatic,Recovered,26/08/2020
+144,18,F,New Cabalan,Asymptomatic,Recovered,26/08/2020
+143,10,F,Mabayuan,Asymptomatic,Recovered,26/08/2020
+142,26,F,Sta. Rita,Cough and fever,Recovered,25/08/2020
+141,5,F,Kalaklan,Asymptomatic,Recovered,25/08/2020
+140,0,F,Mabayuan,Asymptomatic,Recovered,25/08/2020
+139,36,F,Kalaklan,Asymptomatic,Recovered,25/08/2020
+138,34,F,Mabayuan,Asymptomatic,Recovered,25/08/2020
+137,2,M,Mabayuan,Asymptomatic,Recovered,25/08/2020
+136,5,M,Mabayuan,Asymptomatic,Recovered,25/08/2020
+135,12,F,Mabayuan,Asymptomatic,Recovered,25/08/2020
+134,64,M,Mabayuan,Asymptomatic,Recovered,25/08/2020
+133,80,F,Sta. Rita,Cough and cold but stable,Recovered,25/08/2020
+132,45,F,Sta. Rita,Cough and cold but stable,Recovered,25/08/2020
+131,15,F,Sta. Rita,Cough and cold but stable,Recovered,25/08/2020
+130,16,F,West Tapinac,Cough and cold but stable,Recovered,25/08/2020
+129,44,F,West Tapinac,Cough and cold but stable,Recovered,25/08/2020
+128,20,F,West Tapinac,Cough and cold but stable,Recovered,25/08/2020
+127,47,F,West Bajac-Bajac,Asymptomatic,Recovered,24/08/2020
+126,43,M,West Bajac-Bajac,Anosmia and ageusia,Active,24/08/2020
+125,70,M,Sta. Rita,"Fever, cold and dyspnea",Active,24/08/2020
+124,20,F,Sta. Rita,Asymptomatic,Active,24/08/2020
+123,30,F,Asinan,Asymptomatic,Recovered,23/08/2020
+122,34,F,East Bajac Bajac,Asymptomatic,Recovered,23/08/2020
+121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Active,23/08/2020
+120,25,F,Old Cabalan,Asymptomatic,Recovered,23/08/2020
+119,52,M,New Kababae,Chronic kidney disease,Recovered,23/08/2020
+118,58,M,New Cabalan,Cough,Active,23/08/2020
+117,36,M,Gordon Heights,Asymptomatic,Recovered,23/08/2020
+116,69,M,Barretto,Asymptomatic,Recovered,21/08/2020
+115,34,F,New Kalalake,Asymptomatic,Recovered,21/08/2020
+114,23,M,Old Cabalan,"Fever, cough and colds",Recovered,21/08/2020
+113,68,F,East Bajac-Bajac,Chills and joint pains,Recovered,21/08/2020
+112,23,M,New Cabalan,"Cold, anosmia and loss of apetite",Recovered,21/08/2020
+111,38,M,Old Cabalan,Asymptomatic,Recovered,21/08/2020
+110,0.8,M,Mabayuan,Asymptomatic,Recovered,21/08/2020
+109,5,M,New Cabalan,Asymptomatic,Recovered,21/08/2020
+108,22,F,New Cabalan,"Cough, Cold, Diarrhea and anosmia",Recovered,21/08/2020
+107,81,F,New Cabalan,Asymptomatic,Recovered,21/08/2020
+106,56,M,New Cabalan,"Headache, cold",Recovered,21/08/2020
+106,56,M,New Cabalan,"Headache, cold",Active,21/08/2020
+105,47,M,Kalaklan,Asymptomatic,Recovered,20/08/2020
+104,66,F,West Bajac Bajac,Fever with headache,Recovered,20/08/2020
+103,27,M,Kalaklan,Fever,Recovered,20/08/2020
+102,69,M,East Tapinac,Loss of apetite and body weakness,Died,20/08/2020
+101,79,F,Gordon Heights,"Fever, chills and aphasia",Active,20/08/2020
+100,6,F,West Tapinac,Asymptomatic,Recovered,19/08/2020
+99,31,F,West Tapinac,Anosmia,Recovered,19/08/2020
+98,33,F,Asinan,Stable condition,Active,19/08/2020
+97,56,F,Gordon Heights,Fever and cough,Active,19/08/2020
+96,21,M,Banicain,Asymptomatic,Recovered,19/08/2020
+95,31,M,Gordon Heights,Asymptomatic,Recovered,19/08/2020
+94,39,M,Banicain,Asymptomatic,Recovered,19/08/2020
+93,43,M,West Tapinac,Asymptomatic,Recovered,19/08/2020
+92,34,M,Banicain,Asymptomatic,Recovered,19/08/2020
+91,32,M,Barretto,Asymptomatic,Recovered,19/08/2020
+90,43,M,Gordon Heights,Asymptomatic,Recovered,19/08/2020
+89,41,M,Mabayuan,Asymptomatic,Recovered,19/08/2020
+88,70,F,Kalaklan,"Fever, cough and difficulty breathing",Active,18/08/2020
+87,55,M,Sta. Rita,Fever and itchy throat,Recovered,18/08/2020
+86,60,M,Sta. Rita,Asymptomatic,Recovered,17/08/2020
+85,75,F,Barretto,Asymptomatic,Died,17/08/2020
+84,68,F,Barretto,Asymptomatic,Recovered,17/08/2020
+83,69,M,West Bajac Bajac,Fever and cough,Active,17/08/2020
+82,41,M,New Ilalim,Asymptomatic,Recovered,16/08/2020
+81,37,M,Sta. Rita,Asymptomatic,Recovered,16/08/2020
+80,32,M,West Bajac Bajac,Asymptomatic,Recovered,15/08/2020
+79,31,F,Mabayuan,Died,Died,14/08/2020
+78,52,M,West Tapinac,Stable condition,Recovered,14/08/2020
+77,51,M,West Tapinac,Fever with pneumonia,Recovered,14/08/2020
+76,73,F,Gordon Heights,Fever,Active,14/08/2020
+75,35,M,Gordon Heights,Asymptomatic,Recovered,14/08/2020
+74,30,M,West Tapinac,Asymptomatic,Recovered,14/08/2020
+73,25,F,East Tapinac,Asymptomatic,Recovered,14/08/2020
+72,23,F,East Bajac-Bajac,Asymptomatic,Recovered,14/08/2020
+71,45,M,Mabayuan,Cough and fever,Recovered,14/08/2020
+70,28,M,Banicain,Stable condition,Recovered,14/08/2020
+69,32,M,Mabayuan,Fever and cough,Recovered,14/08/2020
+68,38,M,Sta. Rita,Asymptomatic,Recovered,14/08/2020
+67,35,M,Sta. Rita,Mild sore throat,Recovered,14/08/2020
+66,39,M,New Kalalake,Stable condition,Recovered,14/08/2020
+65,60,M,Sta. Rita,Cough and colds,Recovered,14/08/2020
+64,12,F,,Asymptomatic,Recovered,13/08/2020
+63,35,M,,Asymptomatic,Recovered,13/08/2020
+62,61,F,West Bajac Bajac,"Fever, cough, shortness of breath",Recovered,11/08/2020
+61,65,M,,Sore throat and loss os sense of taste,Recovered,10/08/2020
+60,38,F,,Asymptomatic,Recovered,09/08/2020
+59,23,M,,Asymptomatic,Recovered,09/08/2020
+58,19,M,,Headache,Active,09/08/2020
+57,21,F,,Fever and Sore Throat,Recovered,09/08/2020
+56,20,M,,Cold,Recovered,09/08/2020
+55,54,F,,Asymptomatic,Recovered,09/08/2020
+54,24,M,,Stable condition,Recovered,09/08/2020
+53,26,F,,"Fever, coughs and cold",Recovered,09/08/2020
+52,0.01,F,,Asymptomatic,Recovered,09/08/2020
+51,0.1,F,,Stable condition,Recovered,09/08/2020
+50,51,F,,Asymptomatic,Recovered,09/08/2020
+49,27,M,,Asymptomatic,Recovered,09/08/2020
+48,33,M,,Asymptomatic,Recovered,09/08/2020
+47,30,M,,Asymptomatic,Recovered,09/08/2020
+46,56,M,,Asymptomatic,Recovered,09/08/2020
+45,29,M,,Asymptomatic,Recovered,09/08/2020
+44,32,F,,Asymptomatic,Recovered,07/07/2020
+43,58,M,,Asymptomatic,Recovered,07/07/2020
+42,30,M,,Asymptomatic,Recovered,07/07/2020
+41,54,M,,Asymptomatic,Recovered,07/07/2020
+40,45,F,,Asymptomatic,Recovered,07/07/2020
+39,53,F,,Asymptomatic,Recovered,07/07/2020
+38,26,F,,Fever,Recovered,07/08/2020
+37,47,F,,Asymptomatic,Recovered,06/08/2020
+36,21,F,,Fever,Recovered,05/08/2020
+35,28,M,,"coughs, cold and fever",Recovered,04/08/2020
+34,16,M,,Asymptomatic,Recovered,01/08/2020
+33,18,F,,Anosmia,Recovered,01/08/2020
+32,52,F,,Anosmia,Recovered,01/08/2020
+31,53,M,,Fever,Recovered,30/07/2020
+30,51,M,,Asymptomatic,Recovered,30/07/2020
+29,65,M,,with symptoms,Recovered,30/07/2020
+28,57,F,,Asymptomatic,Recovered,30/07/2020
+27,,,,,Recovered,25/07/2020
+26,,,,,Recovered,25/07/2020
+25,27,F,,Asymptomatic,Recovered,24/07/2020
+24,30,M,,Asymptomatic,Recovered,24/07/2020
+23,18,M,,Asymptomatic,Recovered,22/07/2020
+22,19,F,,Asymptomatic,Recovered,22/07/2020
+21,45,F,,Asymptomatic,Recovered,22/07/2020
+20,72,F,,Difficulty breathing,Died,21/07/2020
+19,55,M,,Asymptomatic,Recovered,21/07/2020
+18,27,M,,Asymptomatic,Active,20/07/2020
+17,37,M,,Asymptomatic,Active,20/07/2020
+16,76,M,,Asymptomatic,Recovered,19/07/2020
+15,23,F,,Asymptomatic,Active,02/07/2020
+14,47,M,,Difficulty breathing,Active,26/05/2020
+13,58,F,,Breast cancer,Died,26/05/2020
+12,18,F,,Stable condition,Recovered,15/05/2020
+11,29,F,,Stable condition,Recovered,05/05/2020
+10,0.6,F,,Stable condition,Recovered,05/05/2020
+9,61,F,,Stable condition,Recovered,17/04/2020
+8,48,F,,Stable condition,Recovered,17/04/2020
+7,36,F,,Stable condition,Recovered,14/04/2020
+6,55,F,,Stable condition,Recovered,14/04/2020
+5,35,F,,Stable condition,Recovered,10/04/2020
+4,23,F,,Chills,Recovered,06/04/2020
+3,2,M,,Stable condition,Recovered,05/04/2020
+2,45,M,,Stable condition,Recovered,04/04/2020
+1,75,M,,Stable condition,Recovered,28/03/2020
