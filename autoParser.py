@@ -46,6 +46,7 @@ f1 = open("data/newCases.txt", "r+")
 
 fdata = f1.read()
 fdata = fdata.strip()
+fdata = fdata.replace("PHOC-", "")
 fdata = fdata.replace("â—™ ", "")
 fdata = fdata.replace("◙ ", "")
 fdata = fdata.replace(" who is a ", ",")
