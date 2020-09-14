@@ -1,0 +1,24 @@
+PHOC-273 is a 96 year-old Filipino male from Sta. Rita
+PHOC-274 is a 71 year-old Filipino female from West Bajac-Bajac
+PHOC-275 is a 28 year-old Filipino female from Old Cabalan
+PHOC-276 is a 50 year-old Filipino female from Mabayuan
+PHOC-277 is a 46 year-old Filipino male from East Bajac-Bajac
+PHOC-278 is a 53 year-old Filipino female from Mabayuan
+PHOC-279 is a 46-year-old Filipino male from East Bajac-Bajac
+PHOC-280 is a 66 year-old Filipino female from East Bajac-Bajac
+PHOC-281 is a 33 year-old Filipino female from Banicain
+PHOC-282 is a 25 year-old Filipino female from Banicain
+PHOC-283 is a 22 year-old Filipino male from East Bajac-Bajac
+PHOC-284 is a 62 year-old Filipino female from Mabayuan
+PHOC-285 is a 33 year-old Filipino female from Gordon Heights
+PHOC-286 is a 59 year-old Filipino male from Barretto
+PHOC-287 is a 24 year-old Filipino male from New Kababae
+PHOC-288 is a 53 year-old Filipino female from New Kababae
+PHOC-289 is a 50 year-old Filipino male from New Kalalake
+PHOC-290 is a 58 year-old Filipino female from East Bajac-Bajac
+PHOC-291 is a 27 year-old Filipino female from East Bajac-Bajac
+PHOC-292 is a 30 year-old Filipino male East Bajac-Bajac
+PHOC-293 is a 31 year-old Filipino female from Asinan
+PHOC-294 is a 73 year-old Filipino female from Sta. Rita
+PHOC-295 is a 20 year-old Filipino male from Sta. Rita
+PHOC-296 is a 57 year-old Filipino male from Mabayuan
