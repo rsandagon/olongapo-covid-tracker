@@ -34,9 +34,6 @@ if length > 0 :
 
 f1.close()
 
-# LOAD DATA2 FOR DETAILS (let's do string replacement,I'm lazy now..zzz)
-db2Csv = pd.read_csv(r'data/data2.csv')
-df2 = pd.DataFrame(db2Csv)
 
 # Patient,Age,Gender,Location,Condition,Status,Date
 # ◙ PHOC-152 is a 62 year-old Filipino male from Barretto
@@ -76,3 +73,11 @@ f2 = open('data/daily.txt', 'w')
 print('Step 3: Empty daily updates')
 f1.write('')
 f2.write('')
+
+print('Step 4: Sort by case number')
+# LOAD DATA2 FOR DETAILS (let's do string replacement,I'm lazy now..zzz)
+db2Csv = pd.read_csv(r'data/data2.csv')
+df2 = pd.DataFrame(db2Csv)
+
+df2.sort_values(by=['Patient'])
+df2.to_csv('data/data2.csv',index=False)
