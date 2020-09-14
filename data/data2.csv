@@ -291,7 +291,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 289,50.0,M,New Kalalake,,Active,14/09/2020
 290,58.0,F,East Bajac-Bajac,,Active,14/09/2020
 291,27.0,F,East Bajac-Bajac,,Active,14/09/2020
-292,30.0,M East Bajac-Bajac,,Active,14/09/2020,
+292,30.0,M,East Bajac-Bajac,,Active,14/09/2020
 293,31.0,F,Asinan,,Active,14/09/2020
 294,73.0,F,Sta. Rita,,Active,14/09/2020
 295,20.0,M,Sta. Rita,,Active,14/09/2020
