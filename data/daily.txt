@@ -1,0 +1,6 @@
+Confirmed Cases - 315
+Active Cases - 119
+Recovered - 182
+Death - 14
+Suspect Case - 74
+Probable Case - 0
