@@ -1,0 +1,31 @@
+PHOC-316 is a 42 year-old Filipino male from Kalaklan
+PHOC-317 is a 42 year-old Filipino female from Kalaklan
+PHOC-318 is a 10 year-old Filipino female from Kalaklan
+PHOC-319 is a 24 year-old Filipino male from Kalaklan
+PHOC-320 is a 36 year-old Filipino male from Sta. Rita
+PHOC-321 is a 34 year-old Filipino male from New Kalalake 
+PHOC-322 is an 85 year-old Filipino male from Sta. Rita
+PHOC-323 is a 13 year-old Filipino male from Sta. Rita
+PHOC-324 is a 37 year-old male from Gordon Heights
+PHOC 325 is a 19 year-old Filipino female from Banicain
+PHOC-326 is an 86 year-old Filipino female from Pag-Asa
+PHOC-327 is a 49 year-old Filipino female from New Cabalan
+PHOC-328 is a 40 year-old Filipino female from Banicain
+PHOC-329 is a 23 year-old Filipino female from East Tapinac 
+PHOC-330 is a 30 year-old Filipino female from East Tapinac
+PHOC-331 is a 6 year-old Filipino female from East Tapinac
+PHOC-332 is a 31 year-old Filipino male from West Bajac-Bajac
+PHOC-333 is a 22 year-old female from Barretto
+PHOC-334 is a 59-year-old Filipino female from Barretto
+PHOC-335 is a 69 year-old Filipino male Old Cabalan
+PHOC-336 is a 68 year-old Filipino female from Old Cabalan
+PHOC-337 is an 8 year-old Filipino male from Old Cabalan
+PHOC-338 is a 23 year-old Filipino female from West Tapinac 
+PHOC-339 is a 52 year-old Filipino female from West Tapinac
+PHOC-340 is a 77 year-old Filipino female from East Tapinac
+PHOC-341 is a 23 year-old Filipino male from Gordon Heights
+PHOC-342 is a 27 year-old Filipino female from Barretto
+PHOC-343 is a 54 year-old Filipino female from West Bajac-Bajac
+PHOC-344, a 56 year-old Filipino male from West Bajac-Bajac
+PHOC-345 is a 24 year-old Filipino male from Barretto
+PHOC-346 is a 56 year-old Filipino male from Sta. Rita
