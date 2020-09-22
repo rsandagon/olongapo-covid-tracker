@@ -74,7 +74,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 73,25,F,East Tapinac,Asymptomatic,Recovered,14/08/2020
 74,30,M,West Tapinac,Asymptomatic,Recovered,14/08/2020
 75,35,M,Gordon Heights,Asymptomatic,Recovered,14/08/2020
-76,73,F,Gordon Heights,Fever,Active,14/08/2020
+76,73,F,Gordon Heights,Fever,Recovered,14/08/2020
 77,51,M,West Tapinac,Fever with pneumonia,Recovered,14/08/2020
 78,52,M,West Tapinac,Stable condition,Recovered,14/08/2020
 79,31,F,Mabayuan,Died,Died,14/08/2020
@@ -120,12 +120,12 @@ Patient,Age,Gender,Location,Condition,Status,Date
 118,58,M,New Cabalan,Cough,Active,23/08/2020
 119,52,M,New Kababae,Chronic kidney disease,Recovered,23/08/2020
 120,25,F,Old Cabalan,Asymptomatic,Recovered,23/08/2020
-121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Active,23/08/2020
+121,47,F,Gordon Heights,"Fever, cough, anosmia and ageusia",Recovered,23/08/2020
 122,34,F,East Bajac Bajac,Asymptomatic,Recovered,23/08/2020
 123,30,F,Asinan,Asymptomatic,Recovered,23/08/2020
 124,20,F,Sta. Rita,Asymptomatic,Active,24/08/2020
-125,70,M,Sta. Rita,"Fever, cold and dyspnea",Active,24/08/2020
-126,43,M,West Bajac-Bajac,Anosmia and ageusia,Active,24/08/2020
+125,70,M,Sta. Rita,"Fever, cold and dyspnea",Died,24/08/2020
+126,43,M,West Bajac-Bajac,Anosmia and ageusia,Recovered,24/08/2020
 127,47,F,West Bajac-Bajac,Asymptomatic,Recovered,24/08/2020
 128,20,F,West Tapinac,Cough and cold but stable,Recovered,25/08/2020
 129,44,F,West Tapinac,Cough and cold but stable,Recovered,25/08/2020
@@ -165,7 +165,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 163,18,M,Gordon Heights,,Recovered,28/08/2020
 164,50,F,Sta. Rita,,Recovered,28/08/2020
 165,64,M,East Bajac-Bajac,,Active,28/08/2020
-166,60,F,East Bajac-Bajac,,Active,28/08/2020
+166,60,F,East Bajac-Bajac,,Recovered,28/08/2020
 167,49,M,Sta. Rita,,Recovered,28/08/2020
 168,48,F,Sta. Rita,,Recovered,28/08/2020
 169,17,M,Sta. Rita,,Recovered,28/08/2020
@@ -184,7 +184,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 182,33,F,Banicain,,Recovered,28/08/2020
 183,36,F,Gordon Heights,,Active,28/08/2020
 184,26,M,West Tapinac,,Recovered,28/08/2020
-185,26,M,East Bajac-Bajac,,Active,28/08/2020
+185,26,M,East Bajac-Bajac,,Recovered,28/08/2020
 186,29,F,Sta. Rita,,Recovered,28/08/2020
 187,29,M,Sta. Rita,,Recovered,28/08/2020
 188,54,F,New Cabalan,,Recovered,28/08/2020
@@ -192,15 +192,15 @@ Patient,Age,Gender,Location,Condition,Status,Date
 190,35,M,Kalaklan,,Recovered,29/08/2020
 191,27,F,Kalaklan,,Recovered,29/08/2020
 192,39,M,West Tapinac,,Recovered,29/08/2020
-193,26,M,East Tapinac,,Active,31/08/2020
+193,26,M,East Tapinac,,Recovered,31/08/2020
 194,41,F,Sta. Rita,,Active,31/08/2020
 195,25,F,Asinan,,Active,31/08/2020
-196,22,M,Sta. Rita,,Active,02/09/2020
-197,32,F,Asinan,,Active,02/09/2020
+196,22,M,Sta. Rita,,Recovered,02/09/2020
+197,32,F,Asinan,,Recovered,02/09/2020
 198,59,F,Mabayuan,,Active,02/09/2020
 199,49,M,East Tapinac,,Active,02/09/2020
 200,17,M,East Tapinac,,Active,02/09/2020
-201,37,M,Gordon Heights ,,Active,02/09/2020
+201,37,M,Gordon Heights ,,Recovered,02/09/2020
 202,79,M,East Tapinac,,Active,03/09/2020
 203,43,F,East Bajac-Bajac,,Recovered,03/09/2020
 204,64,M,East Bajac-Bajac,,Recovered,03/09/2020
@@ -211,7 +211,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 209,30,F,West Bajac-Bajac,,Active,04/09/2020
 210,67,M,East Bajac-Bajac,,Active,04/09/2020
 211,29,F,Pag-Asa,,Active,04/09/2020
-212,69,F,Sta. Rita,,Active,04/09/2020
+212,69,F,Sta. Rita,,Died,04/09/2020
 213,40,F,East Bajac-Bajac,,Active,04/09/2020
 214,72,F,East Bajac-Bajac,,Active,04/09/2020
 215,74,F,Sta. Rita,,Recovered,04/09/2020
@@ -228,20 +228,20 @@ Patient,Age,Gender,Location,Condition,Status,Date
 226,39,M,New Kalalake,,Recovered,05/09/2020
 227,41,F,Mabayuan,,Recovered,06/09/2020
 228,64,M,New Cabalan,,Active,06/09/2020
-229,48,F,East Bajac-Bajac,,Active,06/09/2020
+229,48,F,East Bajac-Bajac,,Recovered,06/09/2020
 230,57,F,New Cabalan,,Active,08/09/2020
 231,63,M,New Kalalake,,Active,08/09/2020
 232,53,M,New Kababae,,Active,08/09/2020
 233,64,F,Sta. Rita,,Active,08/09/2020
 234,91,F,Sta. Rita,,Active,08/09/2020
-235,36,F,Sta. Rita,,Active,09/09/2020
-236,36,M,West Bajac-Bajac,,Active,09/09/2020
+235,36,F,Sta. Rita,,Recovered,09/09/2020
+236,36,M,West Bajac-Bajac,,Recovered,09/09/2020
 237,57,N,East Tapinac,,Active,09/09/2020
-238,55,M,Gordon Heights,,Active,09/09/2020
-239,40,F,Gordon Heights,,Active,09/09/2020
-240,74,F,Gordon Heights,,Active,09/09/2020
-241,75,M,Gordon Heights,,Active,09/09/2020
-242,15,M,Banicain,,Active,09/09/2020
+238,55,M,Gordon Heights,,Recovered,09/09/2020
+239,40,F,Gordon Heights,,Recovered,09/09/2020
+240,74,F,Gordon Heights,,Recovered,09/09/2020
+241,75,M,Gordon Heights,,Recovered,09/09/2020
+242,15,M,Banicain,,Recovered,09/09/2020
 243,57,M,New Cabalan,,Active,10/09/2020
 244,52,M,East Bajac-Bajac,,Active,10/09/2020
 245,32,M,Gordon Heights,,Active,10/09/2020
@@ -251,13 +251,13 @@ Patient,Age,Gender,Location,Condition,Status,Date
 249,34,F,Sta. Rita,,Active,13/09/2020
 250,68,F,New Cabalan,,Active,10/09/2020
 251,23,F,Old Cabalan,,Active,10/09/2020
-252,41,M,Old Cabalan,,Active,10/09/2020
-253,27,F,Old Cabalan,,Active,13/09/2020
+252,41,M,Old Cabalan,,Recovered,10/09/2020
+253,27,F,Old Cabalan,,Recovered,13/09/2020
 254,30,F,Old Cabalan ,,Active,13/09/2020
 255,26,M,Asinan ,,Active,13/09/2020
 256,52,F,Asinan,,Active,13/09/2020
 257,31,F,East Tapinac ,,Active,13/09/2020
-258,34,F,Mabayuan,,Active,13/09/2020
+258,34,F,Mabayuan,,Recovered,13/09/2020
 259,31,F,East Tapinac,,Active,13/09/2020
 260,54,M,Mabayuan,,Active,13/09/2020
 261,85,M,Pag-Asa,,Active,13/09/2020
@@ -268,8 +268,8 @@ Patient,Age,Gender,Location,Condition,Status,Date
 266,45,F,West Bajac-Bajac,,Active,13/09/2020
 267,65,F,Gordon Heights,,Active,13/09/2020
 268,30,M,West Bajac-Bajac,,Active,13/09/2020
-269,55,F,West Tapinac ,,Active,13/09/2020
-270,49,F,Mabayuan,,Active,13/09/2020
+269,55,F,West Tapinac ,,Recovered,13/09/2020
+270,49,F,Mabayuan,,Recovered,13/09/2020
 271,31,F,Pag-Asa ,,Active,13/09/2020
 272,28,M,East Bajac-Bajac,,Active,13/09/2020
 273,96,M,Sta. Rita,,Active,14/09/2020
@@ -289,7 +289,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 287,24,M,New Kababae,,Active,14/09/2020
 288,53,F,New Kababae,,Active,14/09/2020
 289,50,M,New Kalalake,,Active,14/09/2020
-290,58,F,East Bajac-Bajac,,Active,14/09/2020
+290,58,F,East Bajac-Bajac,,Recovered,14/09/2020
 291,27,F,East Bajac-Bajac,,Active,14/09/2020
 292,30,M,East Bajac-Bajac,,Active,14/09/2020
 293,31,F,Asinan,,Active,14/09/2020
@@ -306,7 +306,7 @@ Patient,Age,Gender,Location,Condition,Status,Date
 304,81,F,East Bajac-Bajac,,Active,15/09/2020
 305,72,M US citizen,Barretto,,Active,15/09/2020
 306,45,M,Gordon Heights,,Active,15/09/2020
-307,70,M,Mabayuan,,Active,15/09/2020
+307,70,M,Mabayuan,,Died,15/09/2020
 308,60,M US citizen,Barretto,,Active,15/09/2020
 309,29,F,New Cabalan,,Active,16/09/2020
 310,47,F,East Bajac-Bajac,,Active,16/09/2020
